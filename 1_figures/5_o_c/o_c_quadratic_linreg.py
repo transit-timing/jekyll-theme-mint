@@ -275,39 +275,26 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
  
         idxs, P_quadratic, dpde_over_2, t0_quadratic = sigma_clip_quadratic(orbit_number_after_sigma_clip, t_after_sigma_clip, t_err_after_sigma_clip)
 
-        t_err = data['Uncertainty']
+        data = pd.read_csv(path + f'{planet_name}.csv')
+        t_error = data['Uncertainty']
 
         fig, axs = plt.subplots(2)
         axs[0].plot(orbit_number_arr, ((t0_quadratic + P_quadratic*orbit_number_arr + dpde_over_2 * orbit_number_arr**2)-linear_model)*24*60, 'black')
-        axs[0].errorbar(orbit_number[m], o_c[m]*24*60, yerr = t_err[m]*24*60, fmt='o', mew = 1, mfc = '#069AF3', ecolor = '#069AF3', alpha = 0.6,  markersize = 9)
-        axs[0].errorbar(orbit_number[~m], o_c[~m]*24*60, yerr = t_err[~m]*24*60, fmt='o', mew = 1, mfc ='white', alpha = 0.8,  markersize = 9, ecolor = '#808080')#'#808080', alpha = 0.8,  markersize = 9, ecolor = '#808080')
+        axs[0].errorbar(orbit_number[m], o_c[m]*24*60, yerr = t_error[m]*24*60, fmt='o', mew = 1, mfc = '#069AF3', ecolor = '#069AF3', alpha = 0.6,  markersize = 9)
+        axs[0].errorbar(orbit_number[~m], o_c[~m]*24*60, yerr = t_error[~m]*24*60, fmt='o', mew = 1, mfc ='white', alpha = 0.8,  markersize = 9, ecolor = '#808080')#'#808080', alpha = 0.8,  markersize = 9, ecolor = '#808080')
      
 
         mask = data['Source'] == 'ETD'
         o_c_etd = o_c[mask]
         orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
+        uncertainty_etd = t_error[mask]
 
         axs[0].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='red', alpha = 0.6, markersize = 9)
 
         mask = data['Source'] == 'Our work'  
         o_c_etd = o_c[mask]
         orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
-
-        axs[0].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 9)
-
-        mask = data['Source'] == 'Our work (sector 1)' 
-        o_c_etd = o_c[mask]
-        orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
-
-        axs[0].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 9)
-
-        mask = data['Source'] == 'Our work (sector 2)' 
-        o_c_etd = o_c[mask]
-        orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
+        uncertainty_etd = t_error[mask]
 
         axs[0].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 9)
         axs[0].plot(t_arr, zero_line, '--', color = 'gray')
@@ -320,26 +307,12 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
         mask = data['Source'] == 'Our work'  
         o_c_etd = o_c[mask]
         orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
+        uncertainty_etd = t_error[mask]
 
         t_min = np.min(orbit_number_etd)
         t_max = np.max(orbit_number_etd)
         t_arr = np.linspace(t_min - 5, t_max + 5, 100)
         zero_line = np.zeros(t_arr.shape[0])
-
-        axs[1].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 10)
-
-        mask = data['Source'] == 'Our work (sector 1)' 
-        o_c_etd = o_c[mask]
-        orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
-
-        axs[1].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 10)
-
-        mask = data['Source'] == 'Our work (sector 2)' 
-        o_c_etd = o_c[mask]
-        orbit_number_etd = orbit_number[mask]
-        uncertainty_etd = t_err[mask]
 
         axs[1].errorbar(orbit_number_etd, o_c_etd*24*60, yerr = uncertainty_etd*24*60, fmt='o', mew = 1, mfc='green', ecolor='green', alpha = 0.6, markersize = 10)
         axs[1].plot(t_arr, zero_line, '--', color = 'gray')

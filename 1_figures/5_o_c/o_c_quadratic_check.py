@@ -140,11 +140,11 @@ def fold_time(t, t0, period):
 if True:
   if True:
   #try:
-    folder = 'hat-p-8-mid-times'
+    folder = 'wasp-104-mid-times'
     planet_name = folder.replace('-mid-times', '')
  
 
-    path = f'/Users/kate/Documents/research/paper/1_database/reviewed_planets_clean/{folder}/'
+    path = f'/Users/kate/Documents/research/paper/1_database/planets_>1_data_point/{folder}/'
     data = pd.read_csv(path + f'{planet_name}.csv')
 
     period = data['Period'].iloc[0]
@@ -281,6 +281,7 @@ if True:
  
         idxs, P, dpde_over_2, t0 = sigma_clip_quadratic(orbit_number_after_sigma_clip, t_after_sigma_clip, t_err_after_sigma_clip)
  
+        data = pd.read_csv(path + f'{planet_name}.csv')
         t_err = data['Uncertainty']
 
         fig, axs = plt.subplots(2)

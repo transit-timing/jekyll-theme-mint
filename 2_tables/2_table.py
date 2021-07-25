@@ -1,18 +1,8 @@
 import numpy as np
 import pandas as pd
 import os, sys, time
-
-SMALL_SIZE = 20
-MEDIUM_SIZE = 20
-BIGGER_SIZE = 20
-
-plt.rcParams["figure.figsize"] = (24,8)
-plt.rc('font', size=MEDIUM_SIZE)          # controls default text sizes
-plt.rc('axes', titlesize=MEDIUM_SIZE)     # fontsize of the axes title
-plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
-plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
-plt.rc('ytick', labelsize=SMALL_SIZE) 
-
+import warnings
+warnings.filterwarnings("ignore")
  
 def sigma_clip(orbit_number, t, y_err, nsigma_clip = 5):
     niter_sigmaclip = 10
@@ -142,23 +132,23 @@ num_points = []
 factors = []
 dpdes = []
 dpde_over_2_errs = []
+per_uncs_lit = []
+t0_uncs_lit = []
+per_uncs_all = []
+t0_uncs_all = []
+planet_names2errors_table = []
 
 
-
-for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/reviewed_planets_clean/'):
+for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/planets_>1_data_point/'):
   try:
     planet_name = folder.replace('-mid-times', '')
-    path = f'/Users/kate/Documents/research/paper/1_database/reviewed_planets_clean/{folder}/'
+    path = f'/Users/kate/Documents/research/paper/1_database/planets_>1_data_point/{folder}/'
     data = pd.read_csv(path + f'{planet_name}.csv')
 
     period = data['Period'].iloc[0]
     t = data['Mid-point']
     t_err = data['Uncertainty']
     source = data['Source']
-
-
-
- 
 
     ###########################################
     # if uncertainty < 26 sec, set it to 30 sec
@@ -263,7 +253,6 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
         ##############################################################################################
 
 
-
         ##############################################################################################
         # literature transit times
         nonsrc =  source != 'Our work'
@@ -272,7 +261,6 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
         uncertainty_lit = t_err.to_numpy()[mask_lit]
         orbit_number_lit = orbit_number[mask_lit]
         model_t_lit = t0_init + orbit_number_lit * P_init
-
 
         # chi square of literature values
         chi_lit = np.sum((t_lit - model_t_lit)**2/uncertainty_lit**2)  
@@ -303,11 +291,36 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
         t_err_after_sigma_clip = t_err[m]
         t_after_sigma_clip = t[m]
 
-        # re-fit linear model after enlarging uncertainties
+        # re-fit linear model after enlarging literature uncertainties
         idxs, P, t0, t0_err, P_err = sigma_clip(orbit_number_after_sigma_clip, t_after_sigma_clip, t_err_after_sigma_clip)
         linear_model = t0 + orbit_number_arr*P
         o_c = t - (t0 + P*orbit_number)
  
+        mask_lit = nonsrc.to_numpy() & m
+        t_lit = t.to_numpy()[mask_lit]
+        uncertainty_lit = t_err.to_numpy()[mask_lit]
+        orbit_number_lit = orbit_number[mask_lit]
+
+        # fit linear model to literature transit times after enlarging uncertainties
+        try:
+            idxs, P_lit, t0_lit, t0_err_lit, P_err_lit = sigma_clip(orbit_number_lit, t_lit, uncertainty_lit)
+
+            # append uncertainties in P and t0 to the corresponding lists
+
+            per_uncs_lit.append(P_err_lit)
+            t0_uncs_lit.append(t0_err_lit)
+            per_uncs_all.append(P_err)
+            t0_uncs_all.append(t0_err)
+            planet_names2errors_table.append(planet_name)
+        except:
+            per_uncs_lit.append(np.inf)
+            t0_uncs_lit.append(np.inf)
+            per_uncs_all.append(P_err)
+            t0_uncs_all.append(t0_err)
+            planet_names2errors_table.append(planet_name)            
+
+
+        # fit quadratic model to transit times after sigma-clipping and after enlarging literature uncertainties
         idxs, P_quadratic, dpde_over_2, t0_quadratic, t0_quadratic_err, P_quadratic_err, dpde_over_2_err = sigma_clip_quadratic(orbit_number_after_sigma_clip, t_after_sigma_clip, t_err_after_sigma_clip)
  
         scale = 86400000 * 365 / P
@@ -330,9 +343,14 @@ for folder in os.listdir('/Users/kate/Documents/research/paper/1_database/review
             dpdes.append(np.nan)
             dpde_over_2_errs.append(np.nan)
 
-  except Exception as e: print(e)
+  except Exception as e: print(e, ': ', planet_name)
  
 
+P_T0_errors = pd.DataFrame(data={'Target': planet_names2errors_table, 'P error (all data)': per_uncs_all, 'P error (literature data)': per_uncs_lit, 'T0 error (all data)': t0_uncs_all, 'T0 error (literature data)': t0_uncs_lit})
+#t0_errors= pd.DataFrame(data={'Target': planet_names2errors_table, 'Error (all data)': t0_uncs_all, 'Error (literature data)': t0_uncs_lit})
+
+P_T0_errors.to_csv('/Users/kate/Documents/research/paper/3_tables/P_T0_errors_init.csv', index = False)
+#t0_errors.to_csv('/Users/kate/Documents/research/paper/3_tables/t0_errors.csv', index = False)
 
 tess_chi_square = pd.DataFrame(data={'TESS chi-square': chis_tess, 'ndof': ndof_tess})
 all_chi_square =  pd.DataFrame(data={'Chi-square': chis, 'ndof': ndofs})
