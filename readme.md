@@ -6,12 +6,14 @@
 ## Processing *TESS* 2-minute cadence light curves in batches for multiple targets
 
 ### Step 1: Dwnload .fits files for each target using X script
-```python3 X.py
+```
+python3 X.py
 ```
 Then put .csv file in the appropriate folder.
 
 ### Step 2: Run tt.py script 
-```python3 tt.py
+```
+python3 tt.py
 ```
 A typical folder that this script produces for a given target contains the following:
 
