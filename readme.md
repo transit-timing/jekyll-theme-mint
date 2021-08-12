@@ -1,15 +1,15 @@
 
 
 
-# Code
+# Transit timing
 
 ## Processing *TESS* 2-minute cadence light curves in batches for multiple targets
 
-### Step 1: Dwnload .fits files for each target using X script
+### Step 1: Download .fits files for each target using X script
 ```
 python3 X.py
 ```
-Then put .csv file in the appropriate folder.
+
 
 ### Step 2: Run tt.py script 
 ```
