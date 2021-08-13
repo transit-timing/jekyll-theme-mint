@@ -1150,13 +1150,8 @@ def analyze_system_30min(params_system, flux, time):
         print('\nTimes with uncertainty method ', i, file=results_file)
         for j in range(len(tn)):
             print(tn[j] + 2457000, tn_unc[j], file=results_file)
+ 
         
-        if (nok < 2.):
-            print('\nNot enough timings to calculate ephemeris.')
-            np.savez(dirname + name + '_results.npz', popt=popt, t=t_obs, t_unc=t_unc)
-            sys.stdout = original_stdout
-            return
-        t
         print('  Uncertainty method ', i, ': number of valid transit times = ', nok)
         ephemeris = np.polyfit(n, tn, 1, w=1./tn_unc)
         tn_calc = np.polyval(ephemeris, n)
@@ -1174,7 +1169,7 @@ def analyze_system_30min(params_system, flux, time):
     plt.savefig(dirname + name + '_g_TimingResiduals.png',bbox_inches='tight')
     plt.tight_layout()
     plt.close()
-    np.savez(dirname + name + '_results.npz', popt=popt, ephemeris=ephemeris, t=t_obs, t_unc=t_unc)
+    
 
     sys.stdout = original_stdout
 
@@ -1186,8 +1181,7 @@ def main():
     sample = pd.read_csv(os.path.dirname(os.getcwd()) + '/3_tables/1_target_list.csv')
     
     #sample = pd.read_pickle("sample.pkl")
-    path = '/Users/kate/tt/mastDownload/TESS/'
-
+    path = os.path.dirname(os.getcwd()) + '/5_data/'
     favorite = 'XO-7'
     idx = 4 # row to be analyzed in the searchresult table
 
