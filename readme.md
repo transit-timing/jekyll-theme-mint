@@ -32,31 +32,31 @@ The results are be stored in *~/5_data* folder. A typical folder that this scrip
 
 1. Figure of the  *TESS* light curve that was processed (transits that were processed to extract mid-transit times are shown in red).
 
-![Original *TESS* light curve](/1_figures/WASP-012_dir/WASP-012_a_TimeSeries.png)
+![Original *TESS* light curve](/5_data/WASP-012_dir/WASP-012_a_TimeSeries.png)
 
 2. Figure with the individual transits that were processed (a polynomial that was fitted to out-of-transit data during de-trending is shown in red).
 
-![Individual transits](/1_figures/WASP-012_dir/WASP-012_b_IndividualTransits.png)
+![Individual transits](/5_data/WASP-012_dir/WASP-012_b_IndividualTransits.png)
 
 3. Figure with the de-trended individual transits.
 
-![De-trended individual transits](/1_figures/WASP-012_dir/WASP-012_c_IndividualTransitsDetrended.png)
+![De-trended individual transits](/5_data/WASP-012_dir/WASP-012_c_IndividualTransitsDetrended.png)
 
 4. Folded light curve at the first iteration of our procedure.
 
-![Folded light curve at the first iteration of our procedure](/1_figures/WASP-012_dir/WASP-012_d_FoldedLightCurve.png)
+![Folded light curve at the first iteration of our procedure](/5_data/WASP-012_dir/WASP-012_d_FoldedLightCurve.png)
 
 5. Folded light curve at the second iteration of our procedure.
 
-![Folded light curve at the second iteration of our procedure](/1_figures/WASP-012_dir/WASP-012_e_FoldedLightCurve.png)
+![Folded light curve at the second iteration of our procedure](/5_data/WASP-012_dir/WASP-012_e_FoldedLightCurve.png)
 
 6. Individual events with the transit model fitted.
 
-![Individual events with the transit model fitted](/1_figures/WASP-012_dir/WASP-012_f_IndividualTransitsWithFit.png)
+![Individual events with the transit model fitted](/5_data/WASP-012_dir/WASP-012_f_IndividualTransitsWithFit.png)
 
 7. O-C diagram showing timing residuals. The timing residuals were calculated as follows: first, a linear model was fitted to the transit times extracted from *TESS* data. Then, the linear model was subtracted from the transit times at each epoch.
 
-![Timing residuals](/1_figures/WASP-012_dir/WASP-012_g_TimingResiduals.png)
+![Timing residuals](/5_data/WASP-012_dir/WASP-012_g_TimingResiduals.png)
 
 8. *WASP-012_results.txt* contains extracted mid-transit times and their uncertainties.
 
