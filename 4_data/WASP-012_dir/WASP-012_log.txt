@@ -1,0 +1,748 @@
+WASP-012
+Starting at  12/06/2020, 18:36:37
+
+Opening the FITS file.
+
+Plotting the time series.
+   Detrended orbit  2325  with polynomial of order  1 , scatter =  0.0018757991487088085
+   Detrended orbit  2326  with polynomial of order  1 , scatter =  0.002061376139756775
+   Detrended orbit  2327  with polynomial of order  1 , scatter =  0.002049476310022603
+   Detrended orbit  2328  with polynomial of order  1 , scatter =  0.0019698904723600245
+   Detrended orbit  2329  with polynomial of order  1 , scatter =  0.0019530788744278641
+   Detrended orbit  2330  with polynomial of order  1 , scatter =  0.0021388710997668975
+   Detrended orbit  2331  with polynomial of order  1 , scatter =  0.002113870653887335
+   Detrended orbit  2332  with polynomial of order  1 , scatter =  0.0018850456328313408
+   Detrended orbit  2333  with polynomial of order  1 , scatter =  0.002042981226478286
+   Detrended orbit  2334  with polynomial of order  1 , scatter =  0.001854026498958383
+   Detrended orbit  2335  with polynomial of order  1 , scatter =  0.0019348902726110462
+   Detrended orbit  2339  with polynomial of order  1 , scatter =  0.0021937012237864257
+   Detrended orbit  2340  with polynomial of order  1 , scatter =  0.0018765263055606418
+   Detrended orbit  2341  with polynomial of order  1 , scatter =  0.002011969265237291
+   Detrended orbit  2342  with polynomial of order  1 , scatter =  0.0018462578776726587
+   Detrended orbit  2343  with polynomial of order  1 , scatter =  0.00197633347303492
+   Detrended orbit  2344  with polynomial of order  2 , scatter =  0.0020677791203409655
+   Detrended orbit  2345  with polynomial of order  1 , scatter =  0.0016730895331140902
+   Detrended orbit  2346  with polynomial of order  1 , scatter =  0.0018791067507258226
+   Detrended orbit  2347  with polynomial of order  1 , scatter =  0.002131941692138545
+   Detrended orbit  2348  with polynomial of order  1 , scatter =  0.0020072328129113665
+
+Plotting folded light curve.
+
+Fitting the folded light curve.
+
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 838
+    # data points      = 5626
+    # variables        = 5
+    chi-square         = 5544.25343
+    reduced chi-square = 0.98634646
+    Akaike info crit   = -72.3462832
+    Bayesian info crit = -39.1705132
+[[Variables]]
+    period:       1.09142 (fixed)
+    t0:          -0.00156611 +/- 1.0637e-04 (6.79%) (init = 0)
+    radratio:     0.11909070 +/- 5.2898e-04 (0.44%) (init = 0.1264911)
+    a_over_r:     2.99143942 +/- 0.04544397 (1.52%) (init = 2.410132)
+    impactparam:  0.41526567 +/- 0.03611602 (8.70%) (init = 0.5)
+    limbdark:     0.36065238 +/- 0.02425592 (6.73%) (init = 0.5)
+    c0:           1 (fixed)
+    c1:           0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam) = -0.983
+    C(radratio, impactparam) =  0.836
+    C(radratio, a_over_r)    = -0.758
+    C(radratio, limbdark)    = -0.641
+    C(impactparam, limbdark) = -0.350
+    C(a_over_r, limbdark)    =  0.221
+
+   Number of outliers clipped:  0
+
+Fitting the folded light curve after sigma-clipping.
+
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 129
+    # data points      = 5626
+    # variables        = 5
+    chi-square         = 5544.25343
+    reduced chi-square = 0.98634646
+    Akaike info crit   = -72.3462781
+    Bayesian info crit = -39.1705081
+[[Variables]]
+    period:       1.09142 (fixed)
+    t0:          -0.00156614 +/- 1.0637e-04 (6.79%) (init = -0.00156611)
+    radratio:     0.11908983 +/- 5.2962e-04 (0.44%) (init = 0.1190907)
+    a_over_r:     2.99151410 +/- 0.04549904 (1.52%) (init = 2.991439)
+    impactparam:  0.41520163 +/- 0.03617222 (8.71%) (init = 0.4152657)
+    limbdark:     0.36065439 +/- 0.02426481 (6.73%) (init = 0.3606524)
+    c0:           1 (fixed)
+    c1:           0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam) = -0.983
+    C(radratio, impactparam) =  0.837
+    C(radratio, a_over_r)    = -0.758
+    C(radratio, limbdark)    = -0.641
+    C(impactparam, limbdark) = -0.351
+    C(a_over_r, limbdark)    =  0.222
+
+Timing the transits.
+
+Working on transit serial number  0 , orbit number  2325
+   estimated timing uncertainty [days,min]   =  0.00032622950753006364 0.46977049084329164
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 77
+    # data points      = 264
+    # variables        = 3
+    chi-square         = 248.409778
+    reduced chi-square = 0.95176160
+    Akaike info crit   = -10.0695194
+    Bayesian info crit = 0.65832794
+[[Variables]]
+    t0:           1843.00482 +/- 4.6317e-04 (0.00%) (init = 1843.005)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00003931 +/- 1.1317e-04 (0.01%) (init = 1)
+    c1:          -3.4191e-04 +/- 0.00106227 (310.69%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.161
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00032622950753006364
+   Done, acceptance rate =  0.608
+   MCMC results for t0 =  1843.004841559429 0.0004629993036518028
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00032622950753006364
+   Done, acceptance rate =  0.6166666666666667
+   MCMC-long results for t0 =  1843.0048359660927 0.00047745835392610516
+
+Working on transit serial number  1 , orbit number  2326
+   estimated timing uncertainty [days,min]   =  0.0003558186579634116 0.5123788674673128
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 80
+    # data points      = 268
+    # variables        = 3
+    chi-square         = 254.344424
+    reduced chi-square = 0.95979028
+    Akaike info crit   = -8.01576506
+    Bayesian info crit = 2.75719588
+[[Variables]]
+    t0:           1844.09660 +/- 5.1851e-04 (0.00%) (init = 1844.096)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00008167 +/- 1.2391e-04 (0.01%) (init = 1)
+    c1:          -1.8077e-04 +/- 0.00115035 (636.36%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.153
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003558186579634116
+   Done, acceptance rate =  0.644
+   MCMC results for t0 =  1844.096640700393 0.00048381561222278274
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003558186579634116
+   Done, acceptance rate =  0.619
+   MCMC-long results for t0 =  1844.096662695898 0.0005457141818467346
+
+Working on transit serial number  2 , orbit number  2327
+   estimated timing uncertainty [days,min]   =  0.0003531064349738875 0.508473266362398
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 81
+    # data points      = 269
+    # variables        = 3
+    chi-square         = 231.688472
+    reduced chi-square = 0.87100929
+    Akaike info crit   = -34.1664619
+    Bayesian info crit = -23.3823277
+[[Variables]]
+    t0:           1845.18787 +/- 4.8451e-04 (0.00%) (init = 1845.188)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00010939 +/- 1.1714e-04 (0.01%) (init = 1)
+    c1:          -3.3475e-04 +/- 0.00108983 (325.57%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.158
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003531064349738875
+   Done, acceptance rate =  0.624
+   MCMC results for t0 =  1845.1878616906504 0.000510093091571694
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003531064349738875
+   Done, acceptance rate =  0.6206666666666667
+   MCMC-long results for t0 =  1845.1878775124867 0.0005055121430161482
+
+Working on transit serial number  3 , orbit number  2328
+   estimated timing uncertainty [days,min]   =  0.00033876541568746675 0.4878221985899521
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 92
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 270.845957
+    reduced chi-square = 1.01440433
+    Akaike info crit   = 6.84463469
+    Bayesian info crit = 17.6399006
+[[Variables]]
+    t0:           1846.27968 +/- 5.0572e-04 (0.00%) (init = 1846.278)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00001422 +/- 1.2126e-04 (0.01%) (init = 1)
+    c1:          -3.8669e-04 +/- 0.00113032 (292.30%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.159
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00033876541568746675
+   Done, acceptance rate =  0.644
+   MCMC results for t0 =  1846.2797288805912 0.0005033110980774147
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00033876541568746675
+   Done, acceptance rate =  0.617
+   MCMC-long results for t0 =  1846.2797169309147 0.000483303248917037
+
+Working on transit serial number  4 , orbit number  2329
+   estimated timing uncertainty [days,min]   =  0.0003358742965913701 0.48365898709157296
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 112
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 277.680947
+    reduced chi-square = 1.04000355
+    Akaike info crit   = 13.5737219
+    Bayesian info crit = 24.3689877
+[[Variables]]
+    t0:           1847.37083 +/- 5.0164e-04 (0.00%) (init = 1847.371)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99988152 +/- 1.2171e-04 (0.01%) (init = 1)
+    c1:           3.0853e-05 +/- 0.00113338 (3673.42%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.155
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003358742965913701
+   Done, acceptance rate =  0.632
+   MCMC results for t0 =  1847.3708461632918 0.0005633341291063913
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003358742965913701
+   Done, acceptance rate =  0.6356666666666667
+   MCMC-long results for t0 =  1847.3709050123357 0.00048686638734746045
+
+Working on transit serial number  5 , orbit number  2330
+   estimated timing uncertainty [days,min]   =  0.00036988596372169395 0.5326357877592393
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 71
+    # data points      = 267
+    # variables        = 3
+    chi-square         = 241.189857
+    reduced chi-square = 0.91359794
+    Akaike info crit   = -21.1443541
+    Bayesian info crit = -10.3826081
+[[Variables]]
+    t0:           1848.46234 +/- 5.2063e-04 (0.00%) (init = 1848.462)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00000437 +/- 1.2566e-04 (0.01%) (init = 1)
+    c1:          -2.5134e-04 +/- 0.00117226 (466.40%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.151
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00036988596372169395
+   Done, acceptance rate =  0.596
+   MCMC results for t0 =  1848.4623365713314 0.0005076086383962333
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00036988596372169395
+   Done, acceptance rate =  0.597
+   MCMC-long results for t0 =  1848.4623704783817 0.0004891607095346131
+
+Working on transit serial number  6 , orbit number  2331
+   estimated timing uncertainty [days,min]   =  0.00036420100439309063 0.5244494463260505
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 61
+    # data points      = 269
+    # variables        = 3
+    chi-square         = 242.085258
+    reduced chi-square = 0.91009496
+    Akaike info crit   = -22.3583589
+    Bayesian info crit = -11.5742248
+[[Variables]]
+    t0:           1849.55307 +/- 4.8633e-04 (0.00%) (init = 1849.553)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99969178 +/- 1.2342e-04 (0.01%) (init = 1)
+    c1:          -2.6837e-04 +/- 0.00115271 (429.53%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.151
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00036420100439309063
+   Done, acceptance rate =  0.594
+   MCMC results for t0 =  1849.5530833874245 0.0005138288003625718
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00036420100439309063
+   Done, acceptance rate =  0.613
+   MCMC-long results for t0 =  1849.5530738955108 0.0004896379519587637
+
+Working on transit serial number  7 , orbit number  2332
+   estimated timing uncertainty [days,min]   =  0.0003247765001805898 0.4676781602600493
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 88
+    # data points      = 269
+    # variables        = 3
+    chi-square         = 286.266658
+    reduced chi-square = 1.07619044
+    Akaike info crit   = 22.7351265
+    Bayesian info crit = 33.5192606
+[[Variables]]
+    t0:           1850.64510 +/- 4.8522e-04 (0.00%) (init = 1850.645)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00001415 +/- 1.1975e-04 (0.01%) (init = 1)
+    c1:          -5.8970e-04 +/- 0.00111563 (189.18%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.155
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003247765001805898
+   Done, acceptance rate =  0.604
+   MCMC results for t0 =  1850.6451523700632 0.0004535099013043403
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003247765001805898
+   Done, acceptance rate =  0.6126666666666667
+   MCMC-long results for t0 =  1850.6451064041214 0.00045421311657662435
+
+Working on transit serial number  8 , orbit number  2333
+   estimated timing uncertainty [days,min]   =  0.00035133495701436036 0.5059223381006789
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 81
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 263.409608
+    reduced chi-square = 0.98655284
+    Akaike info crit   = -0.67215695
+    Bayesian info crit = 10.1231089
+[[Variables]]
+    t0:           1851.73577 +/- 5.2636e-04 (0.00%) (init = 1851.736)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00002424 +/- 1.2404e-04 (0.01%) (init = 1)
+    c1:          -2.0538e-04 +/- 0.00115609 (562.91%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.159
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00035133495701436036
+   Done, acceptance rate =  0.628
+   MCMC results for t0 =  1851.735812970885 0.0005258894387958704
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00035133495701436036
+   Done, acceptance rate =  0.62
+   MCMC-long results for t0 =  1851.735763881663 0.0005399818642557745
+
+Working on transit serial number  9 , orbit number  2334
+   estimated timing uncertainty [days,min]   =  0.00031884009107508647 0.4591297311481245
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 157
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 262.144772
+    reduced chi-square = 0.98181562
+    Akaike info crit   = -1.97176208
+    Bayesian info crit = 8.82350380
+[[Variables]]
+    t0:           1852.82810 +/- 4.2644e-04 (0.00%) (init = 1852.828)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99979920 +/- 1.1223e-04 (0.01%) (init = 1)
+    c1:          -2.8161e-04 +/- 0.00104368 (370.62%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.145
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00031884009107508647
+   Done, acceptance rate =  0.607
+   MCMC results for t0 =  1852.8280912201656 0.0004305735244243937
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00031884009107508647
+   Done, acceptance rate =  0.585
+   MCMC-long results for t0 =  1852.8281068444774 0.00042467337592096556
+
+Working on transit serial number  10 , orbit number  2335
+   estimated timing uncertainty [days,min]   =  0.0003358708194197122 0.4836539799643856
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 108
+    # data points      = 265
+    # variables        = 3
+    chi-square         = 264.767576
+    reduced chi-square = 1.01056327
+    Akaike info crit   = 5.76747402
+    Bayesian info crit = 16.5066635
+[[Variables]]
+    t0:           1853.91942 +/- 4.8328e-04 (0.00%) (init = 1853.92)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00018489 +/- 1.2009e-04 (0.01%) (init = 1)
+    c1:          -4.2691e-04 +/- 0.00112639 (263.84%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.149
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003358708194197122
+   Done, acceptance rate =  0.626
+   MCMC results for t0 =  1853.9194577227338 0.0004980016844418178
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003358708194197122
+   Done, acceptance rate =  0.592
+   MCMC-long results for t0 =  1853.9194166283517 0.00047396976496033696
+
+Working on transit serial number  11 , orbit number  2339
+   estimated timing uncertainty [days,min]   =  0.00037795509747586985 0.5442553403652526
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 84
+    # data points      = 269
+    # variables        = 3
+    chi-square         = 271.389150
+    reduced chi-square = 1.02025996
+    Akaike info crit   = 8.37860310
+    Bayesian info crit = 19.1627372
+[[Variables]]
+    t0:           1858.28486 +/- 5.6737e-04 (0.00%) (init = 1858.285)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99996411 +/- 1.3568e-04 (0.01%) (init = 1)
+    c1:          -3.4213e-04 +/- 0.00126643 (370.16%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.160
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00037795509747586985
+   Done, acceptance rate =  0.587
+   MCMC results for t0 =  1858.284940519859 0.0005624981573529208
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00037795509747586985
+   Done, acceptance rate =  0.616
+   MCMC-long results for t0 =  1858.284838220707 0.0005747690217706743
+
+Working on transit serial number  12 , orbit number  2340
+   estimated timing uncertainty [days,min]   =  0.0003245173311552313 0.46730495686353307
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 107
+    # data points      = 267
+    # variables        = 3
+    chi-square         = 287.975345
+    reduced chi-square = 1.09081570
+    Akaike info crit   = 26.1921983
+    Bayesian info crit = 36.9539443
+[[Variables]]
+    t0:           1859.37718 +/- 4.8530e-04 (0.00%) (init = 1859.376)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00005437 +/- 1.2046e-04 (0.01%) (init = 1)
+    c1:          -7.8328e-04 +/- 0.00111514 (142.37%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.144
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003245173311552313
+   Done, acceptance rate =  0.618
+   MCMC results for t0 =  1859.3771836256499 0.0004927537218816876
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003245173311552313
+   Done, acceptance rate =  0.6176666666666667
+   MCMC-long results for t0 =  1859.3772142311755 0.0004602595005509308
+
+Working on transit serial number  13 , orbit number  2341
+   estimated timing uncertainty [days,min]   =  0.0003472904289582172 0.5000982176998328
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 92
+    # data points      = 268
+    # variables        = 3
+    chi-square         = 246.889668
+    reduced chi-square = 0.93165913
+    Akaike info crit   = -15.9881755
+    Bayesian info crit = -5.21521458
+[[Variables]]
+    t0:           1860.46832 +/- 4.6560e-04 (0.00%) (init = 1860.468)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00009663 +/- 1.1916e-04 (0.01%) (init = 1)
+    c1:           7.2495e-05 +/- 0.00110614 (1525.81%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.150
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003472904289582172
+   Done, acceptance rate =  0.629
+   MCMC results for t0 =  1860.46829751386 0.00048357655539442754
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003472904289582172
+   Done, acceptance rate =  0.602
+   MCMC-long results for t0 =  1860.468330973586 0.000469366687661343
+
+Working on transit serial number  14 , orbit number  2342
+   estimated timing uncertainty [days,min]   =  0.0003180937169360393 0.4580549523878966
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 126
+    # data points      = 269
+    # variables        = 3
+    chi-square         = 283.967610
+    reduced chi-square = 1.06754741
+    Akaike info crit   = 20.5660283
+    Bayesian info crit = 31.3501624
+[[Variables]]
+    t0:           1861.55823 +/- 4.6399e-04 (0.00%) (init = 1861.559)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00013912 +/- 1.1686e-04 (0.01%) (init = 1)
+    c1:          -3.2303e-04 +/- 0.00109195 (338.04%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.152
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003180937169360393
+   Done, acceptance rate =  0.614
+   MCMC results for t0 =  1861.5581997953152 0.0004485039966231405
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003180937169360393
+   Done, acceptance rate =  0.601
+   MCMC-long results for t0 =  1861.5582387844197 0.00047161567857181597
+
+Working on transit serial number  15 , orbit number  2343
+   estimated timing uncertainty [days,min]   =  0.0003437139291097145 0.4949480579179889
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 98
+    # data points      = 264
+    # variables        = 3
+    chi-square         = 257.514021
+    reduced chi-square = 0.98664376
+    Akaike info crit   = -0.56698214
+    Bayesian info crit = 10.1608652
+[[Variables]]
+    t0:           1862.65041 +/- 5.4277e-04 (0.00%) (init = 1862.65)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99990453 +/- 1.2139e-04 (0.01%) (init = 1)
+    c1:           2.2035e-04 +/- 0.00113661 (515.82%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.166
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003437139291097145
+   Done, acceptance rate =  0.625
+   MCMC results for t0 =  1862.6504164786172 0.0005212604475476377
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003437139291097145
+   Done, acceptance rate =  0.6573333333333333
+   MCMC-long results for t0 =  1862.6504050019091 0.0005367145668696421
+
+Working on transit serial number  16 , orbit number  2344
+   estimated timing uncertainty [days,min]   =  0.000355599493007826 0.5120632699312694
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 130
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 262.535965
+    reduced chi-square = 0.98328077
+    Akaike info crit   = -1.56914674
+    Bayesian info crit = 9.22611914
+[[Variables]]
+    t0:           1863.74192 +/- 5.2988e-04 (0.00%) (init = 1863.742)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00035169 +/- 1.2540e-04 (0.01%) (init = 1)
+    c1:           2.2674e-04 +/- 0.00116962 (515.85%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.162
+  Starting MCMC with n_links =  1000
+  estimated error =  0.000355599493007826
+   Done, acceptance rate =  0.594
+   MCMC results for t0 =  1863.7419356589667 0.0005096103866569655
+  Starting MCMC with n_links =  3000
+  estimated error =  0.000355599493007826
+   Done, acceptance rate =  0.6276666666666667
+   MCMC-long results for t0 =  1863.7419486404058 0.000527242361314339
+
+Working on transit serial number  17 , orbit number  2345
+   estimated timing uncertainty [days,min]   =  0.000289335965321159 0.41664379006246893
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 64
+    # data points      = 267
+    # variables        = 3
+    chi-square         = 302.364381
+    reduced chi-square = 1.14531963
+    Akaike info crit   = 39.2105795
+    Bayesian info crit = 49.9723254
+[[Variables]]
+    t0:           1864.83392 +/- 5.0127e-04 (0.00%) (init = 1864.834)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99988440 +/- 1.1006e-04 (0.01%) (init = 1)
+    c1:           8.9928e-05 +/- 0.00103940 (1155.81%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.176
+  Starting MCMC with n_links =  1000
+  estimated error =  0.000289335965321159
+   Done, acceptance rate =  0.605
+   MCMC results for t0 =  1864.8339661177697 0.00039929104027414526
+  Starting MCMC with n_links =  3000
+  estimated error =  0.000289335965321159
+   Done, acceptance rate =  0.6123333333333333
+   MCMC-long results for t0 =  1864.8339235391554 0.00040589413040489593
+
+Working on transit serial number  18 , orbit number  2346
+   estimated timing uncertainty [days,min]   =  0.00032315318463777774 0.46534058587839994
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 101
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 263.793508
+    reduced chi-square = 0.98799067
+    Akaike info crit   = -0.27893860
+    Bayesian info crit = 10.5163273
+[[Variables]]
+    t0:           1865.92428 +/- 4.6314e-04 (0.00%) (init = 1865.925)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00007554 +/- 1.1419e-04 (0.01%) (init = 1)
+    c1:          -4.7342e-04 +/- 0.00106317 (224.57%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.153
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00032315318463777774
+   Done, acceptance rate =  0.612
+   MCMC results for t0 =  1865.9243330517193 0.0004403490178025827
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00032315318463777774
+   Done, acceptance rate =  0.602
+   MCMC-long results for t0 =  1865.9242914507631 0.00044340618448164223
+
+Working on transit serial number  19 , orbit number  2347
+   estimated timing uncertainty [days,min]   =  0.0003666336396325076 0.527952441070811
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 83
+    # data points      = 270
+    # variables        = 3
+    chi-square         = 240.571417
+    reduced chi-square = 0.90101654
+    Akaike info crit   = -25.1593392
+    Bayesian info crit = -14.3640734
+[[Variables]]
+    t0:           1867.01631 +/- 5.1995e-04 (0.00%) (init = 1867.017)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           1.00000467 +/- 1.2369e-04 (0.01%) (init = 1)
+    c1:          -4.0900e-04 +/- 0.00115260 (281.81%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.158
+  Starting MCMC with n_links =  1000
+  estimated error =  0.0003666336396325076
+   Done, acceptance rate =  0.609
+   MCMC results for t0 =  1867.0162077428852 0.0005060130399902041
+  Starting MCMC with n_links =  3000
+  estimated error =  0.0003666336396325076
+   Done, acceptance rate =  0.6253333333333333
+   MCMC-long results for t0 =  1867.0163281917926 0.0005318581871285869
+
+Working on transit serial number  20 , orbit number  2348
+   estimated timing uncertainty [days,min]   =  0.00035108830558380923 0.5055671600406852
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 79
+    # data points      = 261
+    # variables        = 3
+    chi-square         = 241.029614
+    reduced chi-square = 0.93422331
+    Akaike info crit   = -14.7757575
+    Bayesian info crit = -4.08219624
+[[Variables]]
+    t0:           1868.10766 +/- 4.8924e-04 (0.00%) (init = 1868.107)
+    period:       1.09142 (fixed)
+    radratio:     0.1190898 (fixed)
+    a_over_r:     2.991514 (fixed)
+    impactparam:  0.4152016 (fixed)
+    limbdark:     0.3606544 (fixed)
+    c0:           0.99999611 +/- 1.2062e-04 (0.01%) (init = 1)
+    c1:           1.4056e-04 +/- 0.00113084 (804.51%) (init = 0)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(t0, c1) = -0.158
+  Starting MCMC with n_links =  1000
+  estimated error =  0.00035108830558380923
+   Done, acceptance rate =  0.614
+   MCMC results for t0 =  1868.1076663909967 0.0004532251767561955
+  Starting MCMC with n_links =  3000
+  estimated error =  0.00035108830558380923
+   Done, acceptance rate =  0.6003333333333334
+   MCMC-long results for t0 =  1868.1076774739856 0.0005006328696448235
+
+Calculating transit timing deviations.
+  Uncertainty method  0 : number of valid transit times =  21
+Chisqr, Ndof, Ndata, Np =  15.365532225107115 19 21 2
+  Uncertainty method  1 : number of valid transit times =  21
+Chisqr, Ndof, Ndata, Np =  16.21392959463023 19 21 2
+  Uncertainty method  2 : number of valid transit times =  21
+Chisqr, Ndof, Ndata, Np =  16.576001387874744 19 21 2
