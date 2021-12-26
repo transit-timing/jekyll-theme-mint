@@ -6,29 +6,19 @@
 
 
 
-## Processing a single *TESS* light curve (either 2-minute or 30-minute data)
+## Processing *TESS* light curves 
 
-1. To process a single *TESS* light curve and extract mid-transit times, first go to the directory with the code:
+1. To process *TESS* light curves stored in the *~/data/* folder and extract mid-transit times, first go to the directory with the code:
 
 ```
 cd 0_tt
 ```
-2. In line 1185, specify the name of the target that you would like to study. For example, to run the code on WASP-012, we write
+ Then run the script:
 ```
-favorite = 'WASP-012'
-```
-*1_target_list.csv* contains a list of the targets studied in our work. You may only select a target name from this list (as some information from this file (such as transit depth, etc.) is used in the script). You should write the name of the target as it appears in the table (for example, WASP-012 instead of WASP-12).
-
-3. You then need to decide which data you would like to analyse. You can check what kinds of *TESS* data are available for a given target using the *30-min TESS w/ lightkurve.ipynb* notebook. The notebook contains instructions on how to run it. After running the notebook, you should note the index of the data product that you would like to use; it will be shown in the SearchResult output of the *search_lightcurve* function from the *lightkurve* package. Specify this index in line 1186:
-```
-idx = 0
-```
-4. Now you are ready to run the script:
-```
-python3 tt.py
+python3 main.py
 ```
 ### Output
-The results are be stored in *~/5_data* folder. A typical folder that this script produces for a given target contains the following:
+The results are stored in the *~/output* folder. A typical folder that this script produces for a given target contains the following:
 
 1. Figure of the  *TESS* light curve that was processed (transits that were processed to extract mid-transit times are shown in red).
 
@@ -42,29 +32,34 @@ The results are be stored in *~/5_data* folder. A typical folder that this scrip
 
 ![De-trended individual transits](/5_data/WASP-012_dir/WASP-012_c_IndividualTransitsDetrended.png)
 
-4. Folded light curve at the first iteration of our procedure.
+4. Folded light curve.
 
 ![Folded light curve at the first iteration of our procedure](/5_data/WASP-012_dir/WASP-012_d_FoldedLightCurve.png)
 
-5. Folded light curve at the second iteration of our procedure.
-
 ![Folded light curve at the second iteration of our procedure](/5_data/WASP-012_dir/WASP-012_e_FoldedLightCurve.png)
 
-6. Individual events with the transit model fitted.
+5. Individual events with the transit model fitted.
 
 ![Individual events with the transit model fitted](/5_data/WASP-012_dir/WASP-012_f_IndividualTransitsWithFit.png)
 
-7. O-C diagram showing timing residuals. The timing residuals were calculated as follows: first, a linear model was fitted to the transit times extracted from *TESS* data. Then, the linear model was subtracted from the transit times at each epoch.
+6. O-C diagram showing timing residuals. The timing residuals were calculated as follows: first, a linear model was fitted to the transit times extracted from *TESS* data. Then, the linear model was subtracted from the transit times at each epoch.
 
 ![Timing residuals](/5_data/WASP-012_dir/WASP-012_g_TimingResiduals.png)
 
-8. *WASP-012_results.txt* contains extracted mid-transit times and their uncertainties.
+7. *WASP-012_results.txt* contains extracted mid-transit times and their uncertainties.
 
-9. *WASP-012_log.txt* contains intermediate outputs of the code, such as the found best-fit transit model parameters and different statistics of the produced fits.
+8. *WASP-012_log.txt* contains intermediate outputs of the code, such as the found best-fit transit model parameters and different statistics of the produced fits.
 
 
-**Note:** in order to process *TESS* light curves in batches for multiple targets, you may first download the relevant *.fits* files from MAST and add a few lines in the *tt.py* script to read in the files in a loop.
+**Note:** in order to process *TESS* light curves, you may want to first download the relevant *.fits* files. To download a given light curve, you may do the following:
 
+```
+cd 0_download_data
+```
+In the  *download_single_target.py* script, specify the name of the target and the light curve that you would like to download. Then run the script:
+```
+python3 download_single_target.py
+```
 
 
 # Figures
@@ -97,5 +92,5 @@ arxiv % python3 read_tex.py -s wasp -id 2
 ```
 # Citation
 ```
-a one-line code block
+DOI
 ```
