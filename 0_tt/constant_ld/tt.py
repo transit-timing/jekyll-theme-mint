@@ -41,7 +41,7 @@ def analyze_system(params_system, flux, time):
     # initial guesses and other parameters
     radratio = np.sqrt(depth)
     impactparam = 0.5
-    limbdark1 = 0.5
+    limbdark1 = 0.6
     limbdark2 = 0
     a_over_r = period_ref/(duration*np.pi)*np.sqrt(1.-impactparam**2)
     
@@ -67,7 +67,7 @@ def analyze_system(params_system, flux, time):
 
     # Make a directory for the output
     #dirname = '/Users/kate/tt/tt_v7_quadratic_ld/' + name + '/'
-    dirname ='/scratch/gpfs/eivshina/tt2della/nov15/output/' + name + \
+    dirname ='/scratch/gpfs/eivshina/tt2della/nov15/output_subset/' + name + \
 '/'
     if not os.path.exists(dirname):
         os.mkdir(dirname)
@@ -204,7 +204,7 @@ def analyze_system(params_system, flux, time):
     params.add('radratio', value=radratio, vary=True, min=0.0)
     params.add('a_over_r', value=a_over_r, vary=True)
     params.add('impactparam', value=impactparam, vary=True, min=0.0, max=1.0)
-    params.add('limbdark1', value=limbdark1, vary=True, min=0.0, max=1.0)
+    params.add('limbdark1', value=limbdark1, vary=False)
     params.add('limbdark2', value=0, vary=False)
  
         
@@ -448,9 +448,9 @@ def analyze_system(params_system, flux, time):
     params.add('radratio', value=radratio, vary=True, min=0.0)
     params.add('a_over_r', value=a_over_r, vary=True)
     params.add('impactparam', value=impactparam, vary=True, min=0.0, max=1.0)
-    params.add('limbdark1', value=limbdark1, vary=True, min=0.0, max=1.0)
-    params.add('limbdark2', value=limbdark2, vary=True, min=0.0, max=1)
-    params.add('delta', expr='limbdark2+limbdark1', min = 0, max=1)
+    params.add('limbdark1', value=limbdark1, vary=False)
+    params.add('limbdark2', value=limbdark2, vary=False)
+
  
  
         
@@ -483,7 +483,7 @@ def analyze_system(params_system, flux, time):
     params.add('radratio', value=radratio, vary=True, min=0.0)
     params.add('a_over_r', value=a_over_r, vary=True)
     params.add('impactparam', value=impactparam, vary=True, min=0.0, max=1.0)
-    params.add('limbdark1', value=limbdark1, vary=True, min=0.0, max=1.0)
+    params.add('limbdark1', value=limbdark1, vary=False)
     params.add('limbdark2', value=0, vary=False)
  
         
