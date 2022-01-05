@@ -1,6 +1,6 @@
 let planets = {
-    "Earth": "earth.html",
-    "Mars": "mars.html",
+    "Earth": "earth.md",
+    "Mars": "mars.md",
     "Marssss": "https://mars.nasa.gov/",
     "Jupiter": "jupiter.html",
 };
