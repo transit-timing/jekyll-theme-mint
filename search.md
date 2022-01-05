@@ -13,5 +13,7 @@ permalink: /search
       <!-- here list are inserted from javascript -->
     </div>
     <!-- <div class="icon"><i class="fas fa-search"></i></div> -->
+    <script src="js/planets.js"></script> 
+    <script src="js/script.js"></script> 
   </div>
 </div>
