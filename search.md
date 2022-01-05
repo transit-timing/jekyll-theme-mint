@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Search
-permalink: /search.html
+permalink: /search
 ---
 
 This is a Jekyll theme. You can find more infomation at [Jekyll theme](https://jekyllrb.com/docs/themes/).
