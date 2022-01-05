@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ephemerides
-permalink: /ephemerides/
+title: Database
+permalink: /database/
 ---
 |System        |Orbit number|T_mid   |Uncertainty (days)|Time System|#      |Source        |
 |--------------|------------|--------|------------------|-----------|-------|--------------|
