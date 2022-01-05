@@ -3,6 +3,7 @@ layout: post
 ---
 <script src="../js/planets.js"></script> 
 
+## WASP-12
 
 <div class="row">
 <div class="col-md-6">
@@ -14,7 +15,6 @@ layout: post
 </div>
 </div>
 
-## WASP-12
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
 |-------------|-----------|-----------|--------------------------------------------------|
