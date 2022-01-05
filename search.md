@@ -3,6 +3,7 @@ layout: page
 title: Search
 permalink: /search
 style: search
+planetdata: true
 ---
 
 <div class="search-wrapper">
@@ -17,5 +18,4 @@ style: search
   </div>
 </div>
 
-<script src="js/planets.js"></script> 
 <script src="js/script.js"></script> 

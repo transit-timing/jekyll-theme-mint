@@ -29,6 +29,10 @@
     <link rel='stylesheet' href='{{ '/assets/search.css' | relative_url }}'>
   {% endif %}
 
+  {% if page.planetdata == 'true' %}
+    <script src="js/planets.js"></script>
+  {% endif %}
+
   {% feed_meta %}
   {% include google_analytics.html %}
 </head>

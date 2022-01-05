@@ -1,6 +1,6 @@
 ---
 layout: post
-jquery: true
+planetdata: true
 ---
 
 ## Hello Earth
