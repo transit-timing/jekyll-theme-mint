@@ -10,5 +10,5 @@ Earth's columns are here:
 <script>
   var myData = planetData['Earth'].join(' | ');
   console.log(myData);
-  document.getElementById("planetdata").innerHTML = "whatever";
+  document.getElementById("planetdata").innerHTML = myData;
 </script>
