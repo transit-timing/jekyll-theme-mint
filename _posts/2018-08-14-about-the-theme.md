@@ -67,6 +67,5 @@ For test, you can run `bundle exec jekyll serve` and open your browser at `http:
 
 For more information you can see here <https://jekyllrb.com/docs/themes/>.
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Citation
+If you find the data or code useful, please cite: 
