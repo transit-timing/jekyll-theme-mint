@@ -2,6 +2,6 @@
 
 source 'https://rubygems.org'
 gemspec
-gem "jekyll-theme-mint"
-gem install jekyll-theme-mint
 gem 'github-pages'
+gem "jekyll-theme-mint"
+
