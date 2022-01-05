@@ -2,9 +2,10 @@
 layout: page
 title: Search
 permalink: /search
+style: search
 ---
 
-<div class="wrapper">
+<div class="search-wrapper">
   <h1>Find Katya's Planet Factz</h1>
   <div class="search-input">
     <a href="" target="_blank" hidden></a>

@@ -25,6 +25,10 @@
      }
   </style>
 
+  {% if page.style %}
+    <link rel='stylesheet' href='{{ '/assets/search.css' | relative_url }}'>
+  {% endif %}
+
   {% feed_meta %}
   {% include google_analytics.html %}
 </head>
