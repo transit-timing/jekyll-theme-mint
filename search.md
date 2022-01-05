@@ -7,7 +7,7 @@ planetdata: true
 ---
 
 <div class="search-wrapper">
-  <h1>Find Katya's Planet Factz</h1>
+  <h1>Search by planet name</h1>
   <div class="search-input">
     <a href="" target="_blank" hidden></a>
     <input type="text" placeholder="Type to search..">
