@@ -3,6 +3,7 @@ let planets = {
     "Mars": "mars.html",
     "Marssss": "https://mars.nasa.gov/",
     "Jupiter": "jupiter.html",
+    "WASP-12": "wasp-12.html"
 };
 
 let planetData = {
