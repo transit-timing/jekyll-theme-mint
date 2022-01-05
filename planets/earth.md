@@ -3,7 +3,7 @@ layout: post
 planetdata: true
 ---
 
-## Hello Earth
+## Earth
 Earth's columns are here:
 <div id="planetdata"></div>
 
