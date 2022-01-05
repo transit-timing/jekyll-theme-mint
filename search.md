@@ -4,6 +4,14 @@ title: Search
 permalink: /search
 ---
 
-This is a Jekyll theme. You can find more infomation at [Jekyll theme](https://jekyllrb.com/docs/themes/).
-
-You also can find the source code for this theme at [GitHub](https://github.com/aidewoode/jekyll-theme-mint).
+<div class="wrapper">
+  <h1>Find Katya's Planet Factz</h1>
+  <div class="search-input">
+    <a href="" target="_blank" hidden></a>
+    <input type="text" placeholder="Type to search..">
+    <div class="autocom-box">
+      <!-- here list are inserted from javascript -->
+    </div>
+    <!-- <div class="icon"><i class="fas fa-search"></i></div> -->
+  </div>
+</div>
