@@ -1,7 +1,8 @@
 ---
 layout: post
-planetdata: true
 ---
+
+<script src="../js/planets.js"></script> 
 
 ## Earth
 Earth's columns are here:

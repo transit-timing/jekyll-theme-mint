@@ -18,4 +18,5 @@ planetdata: true
   </div>
 </div>
 
+<script src="js/planets.js"></script> 
 <script src="js/script.js"></script> 
