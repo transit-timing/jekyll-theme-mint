@@ -1,6 +1,9 @@
 ---
 layout: post
 ---
+<script src="../js/planets.js"></script> 
+## WASP-12
+
 |Mid-point    |Uncertainty|Time System|Source                                            |
 |-------------|-----------|-----------|--------------------------------------------------|
 |2458843.00482203|0.000463173459178361|BJD_TDB    |Our work                                          |
