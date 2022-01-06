@@ -1,19 +1,25 @@
 ---
 layout: post
+style: planet
 ---
 <script src="../js/planets.js"></script> 
 
 ## WASP-12
 
-<div class="row">
-<div class="col-md-6">
-###asdf
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Data')">Data</button>
+  <button class="tablinks" onclick="openCity(event, 'Figures')">Figures</button>
+</div>
 
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
 </div>
-<div class="col-md-6">
-####fdsa
-</div>
-</div>
+
+<div id="Data" class="tabcontent" markdown="1">
 
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
@@ -147,9 +153,15 @@ layout: post
 |2458161.95964|0.000260000|BJD_TDB    |Patra_2020_AJ                                     |
 |2458163.05125|0.000210000|BJD_TDB    |Patra_2020_AJ                                     |
 
+</div> 
 
+<div id="Figures" class="tabcontent" markdown="1">
 ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
 ![alt text](/images/WASP-012_Sector_20_c_TimingResiduals.png)
+</div>
+
+<script src="../js/tabs.js"></script> 
+
  
