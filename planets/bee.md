@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 ---
 <script src="../js/planets.js"></script> 
 
