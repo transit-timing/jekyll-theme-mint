@@ -28,7 +28,7 @@ style: planet
   <p>Tokyo is the capital of Japan.</p>
 </div> 
 
-<script src="js/tabs.js"></script> 
+<script src="../js/tabs.js"></script> 
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
 |-------------|-----------|-----------|--------------------------------------------------|
