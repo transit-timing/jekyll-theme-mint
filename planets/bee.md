@@ -19,7 +19,7 @@ style: planet
   <p>London is the capital city of England.</p>
 </div>
 
-<div id="Data" class="tabcontent">
+<div id="Data" class="tabcontent" markdown="1">
 
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
@@ -155,7 +155,7 @@ style: planet
 
 </div> 
 
-<div id="Figures" class="tabcontent">
+<div id="Figures" class="tabcontent" markdown="1">
 ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
