@@ -19,16 +19,8 @@ style: planet
   <p>London is the capital city of England.</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  ### Paris
-</div>
+<div id="Data" class="tabcontent">
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div> 
-
-<script src="../js/tabs.js"></script> 
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
 |-------------|-----------|-----------|--------------------------------------------------|
@@ -161,9 +153,15 @@ style: planet
 |2458161.95964|0.000260000|BJD_TDB    |Patra_2020_AJ                                     |
 |2458163.05125|0.000210000|BJD_TDB    |Patra_2020_AJ                                     |
 
+</div> 
 
+<div id="Figures" class="tabcontent">
 ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
 ![alt text](/images/WASP-012_Sector_20_c_TimingResiduals.png)
+</div>
+
+<script src="../js/tabs.js"></script> 
+
  
