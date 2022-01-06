@@ -1,5 +1,6 @@
 ---
 layout: post
+style: planet
 ---
 <script src="../js/planets.js"></script> 
 
@@ -26,6 +27,8 @@ layout: post
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
 </div> 
+
+<script src="js/tabs.js"></script> 
 
 |Mid-point    |Uncertainty|Time System|Source                                            |
 |-------------|-----------|-----------|--------------------------------------------------|
