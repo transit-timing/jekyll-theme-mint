@@ -27,6 +27,8 @@
 
   {% if page.style == 'search' %}
     <link rel='stylesheet' href='{{ '/assets/search.css' | relative_url }}'>
+  {% elif page.style == 'planet' %}
+    <link rel='stylesheet' href='{{ '/assets/planet.css' | relative_url }}'>
   {% endif %}
 
   {% if page.planetdata == true %}
