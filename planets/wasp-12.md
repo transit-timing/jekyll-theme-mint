@@ -16,7 +16,8 @@ style: planet
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent">
   <h3>Ephemeris</h3>
-  <p>$$P=1 day, T_0 = 2458843 BJD_TDB$$.</p>
+  <p>$$P=1.091419108 \pm 5.4 \cdot 10^{-8} d$$</p>
+  <p>$$T_0 = 2457010.512173 \pm 7 \cdot 10^{-5}BJD_{TDB}$$</p>
 </div>
 
 <div id="Data" class="tabcontent" markdown="1">
