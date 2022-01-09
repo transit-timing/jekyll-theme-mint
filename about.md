@@ -22,7 +22,7 @@ are provided on this website, along with the [Python code](https://github.com/tr
 
 
 ## Acknowledgements
-We thank Betsy Pu for her big brain and help with the website. 
+We thank Betsy Pu for her help with the website. 
 We are grateful to Filip Walter, the current administrator of the Exoplanet Transit Database, for compiling and providing the database in a convenient format, although we did not end up including those
 data in our analyses. We also thank
 Sarah Millholland, Vadim Krushinsky, and Luke Bouma for helpful comments on the draft of this paper.
