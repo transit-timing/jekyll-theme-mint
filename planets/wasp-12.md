@@ -14,9 +14,9 @@ style: planet
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="Ephemeris" class="tabcontent">
+  <h3>Ephemeris</h3>
+  <p>P=1 day, T_0 = 2458843 BJD_TDB.</p>
 </div>
 
 <div id="Data" class="tabcontent" markdown="1">
