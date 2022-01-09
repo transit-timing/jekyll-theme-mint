@@ -16,8 +16,7 @@ searching for long-term period changes. In total, our database contains 8,693 tr
 WASP-12 remains the only system for which a period change
 is securely detected.
 We remark on other cases of interest, such as a few systems with suggestive (but not
-yet convincing) evidence for period changes,
-and the detection of a second transiting planet in the NGTS-11 system.
+yet convincing) evidence for period changes.
 The compilation of light curves, transit times, ephemerides, and timing residuals
 are provided on this website, along with the [Python code](https://github.com/transit-timing/transit-timing) that generated them.
 
