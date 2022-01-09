@@ -8,7 +8,7 @@ style: planet
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Ephemeris')">Ephemeris</button>
   <button class="tablinks" onclick="openCity(event, 'Data')">Data</button>
   <button class="tablinks" onclick="openCity(event, 'Figures')">Figures</button>
 </div>
