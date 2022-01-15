@@ -155,9 +155,10 @@ style: planet
 |2458163.05125|0.000210000|BJD_TDB    |Patra_2020_AJ                                     |
 
 </div> 
-<a href="#WASP-012_Sector_20_a_TimeSeries">Click here to see the content below.</a>
 
 <div id="Figures" class="tabcontent" markdown="1">
+<a href="#WASP-012_Sector_20_a_TimeSeries">Click here to see the content below.</a>
+
 ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
