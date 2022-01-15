@@ -161,6 +161,14 @@ style: planet
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
 ![alt text](/images/WASP-012_Sector_20_c_TimingResiduals.png)
+
+<hr>
+![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
+![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
+![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
+![alt text](/images/WASP-012_Sector_20_c_TimingResiduals.png)
+
+
 </div>
 
 <script src="../js/tabs.js"></script> 
