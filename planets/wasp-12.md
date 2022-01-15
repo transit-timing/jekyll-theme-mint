@@ -164,7 +164,7 @@ style: planet
 ![alt text](/images/WASP-012_Sector_20_b_IndividualTransitsWithFit.png)
 ![alt text](/images/WASP-012_Sector_20_c_TimingResiduals.png)
 
-<hr>
+<hr style='width: 100%'>
 <a id="WASP-012_Sector_20_a_TimeSeries"> 
 ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 ![alt text](/images/WASP-012_Sector_20_b_FoldedLightCurve.png)
