@@ -14,12 +14,12 @@ style: planet
 </div>
 
 <!-- Tab content -->
-<div id="Ephemeris" class="tabcontent">
-  <h3>Ephemeris</h3>
+<div id="Ephemeris" class="tabcontent" markdown="1">
+  ### Ephemeris
   ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
-  <p>$$P=1.091419108 \pm 5.4 \cdot 10^{-8} day$$ </p>
-  <p>$$T_0 = 2457010.512173 \pm 7 \cdot 10^{-5} BJD_{TDB}$$ </p>
-<p>![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)</p>
+  $$P=1.091419108 \pm 5.4 \cdot 10^{-8} day$$
+  $$T_0 = 2457010.512173 \pm 7 \cdot 10^{-5} BJD_{TDB}$$
+  ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 </div>
 
 <div id="Data" class="tabcontent" markdown="1">
