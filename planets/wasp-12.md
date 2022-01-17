@@ -15,8 +15,6 @@ style: planet
 
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
-  <h3>Ephemeris</h3>
-  ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
   $$P=1.091419108 \pm 5.4 \cdot 10^{-8} day$$
   $$T_0 = 2457010.512173 \pm 7 \cdot 10^{-5} BJD_{TDB}$$
   ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
