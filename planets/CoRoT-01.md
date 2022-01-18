@@ -24,7 +24,9 @@ style: planet
 </div>
 
 <div id="Data" class="tabcontent" markdown="1">
+
   {% include data/data_CoRoT-01.md %}
+  
 </div> 
  
 <div id="Figures" class="tabcontent" markdown="1">
