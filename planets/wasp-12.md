@@ -160,7 +160,7 @@ style: planet
 </div> 
  
 <div id="Figures" class="tabcontent" markdown="1">
-{% include figures_wasp-12.md %}
+{% include figures/figures_wasp-12.md %}
 </div>
 
 
