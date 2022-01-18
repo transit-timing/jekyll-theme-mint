@@ -15,7 +15,7 @@ style: planet
 
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
-<br/><br/>
+  <br/><br/>
   $$P=1.091419108 \pm 1.508968772 \cdot 8.3e-08 day$$
   $$T_0 = 2456268.99119 \pm 7 \cdot 0.00012 BJD TDB$$
   <br/><br/>
@@ -26,7 +26,7 @@ style: planet
 <div id="Data" class="tabcontent" markdown="1">"<div id="Data" class="tabcontent" markdown="1">
 
   {% include data/data_CoRoT-01.md %}
-</div> 
+
 </div> 
 
 <div id="Figures" class="tabcontent" markdown="1">
