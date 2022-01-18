@@ -23,7 +23,8 @@ style: planet
   ![alt text](/images/WASP-012_Sector_20_a_TimeSeries.png)
 </div>
 
-    <div id="Data" class="tabcontent" markdown="1">|    |   Mid-point |   Uncertainty | Time System   | #   | Ref                  |
+<div id="Data" class="tabcontent" markdown="1">
+|    |   Mid-point |   Uncertainty | Time System   | #   | Ref                  |
 |---:|------------:|--------------:|:--------------|:----|:---------------------|
 |  0 | 2.45414e+06 |    0.00047    | BJD           | 1   | 2009A&A...506..369B  |
 |  1 | 2.45414e+06 |    0.00059    | BJD           | 1   | 2009A&A...506..369B  |
