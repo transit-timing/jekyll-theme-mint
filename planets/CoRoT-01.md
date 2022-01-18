@@ -15,7 +15,7 @@ style: planet
 
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
-<br/><br/>
+  <br/><br/>
   $$P=1.091419108 \pm 1.508968772 \cdot 8.3e-08 day$$
   $$T_0 = 2456268.99119 \pm 7 \cdot 0.00012 BJD TDB$$
   <br/><br/>
@@ -24,6 +24,7 @@ style: planet
 </div>
 
 <div id="Data" class="tabcontent" markdown="1">
+
 |    |   Mid-point |   Uncertainty | Time System   | #   | Ref                  |
 |---:|------------:|--------------:|:--------------|:----|:---------------------|
 |  0 | 2.45414e+06 |    0.00047    | BJD           | 1   | 2009A&A...506..369B  |
@@ -96,7 +97,7 @@ style: planet
 </div> 
  
 <div id="Figures" class="tabcontent" markdown="1">
-{% include figures/figures_wasp-12.md %}
+  {% include figures/figures_wasp-12.md %}
 </div>
 
 
