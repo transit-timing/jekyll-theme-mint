@@ -94,6 +94,7 @@ style: planet
 | 64 | 2.45922e+06 |    0.00165074 | BJD_TDB       | 1   |                      |
 | 65 | 2.45923e+06 |    0.00132057 | BJD_TDB       | 1   |                      |
 | 66 | 2.45923e+06 |    0.00138173 | BJD_TDB       | 1   |                      |
+
 </div> 
  
 <div id="Figures" class="tabcontent" markdown="1">
