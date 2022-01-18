@@ -25,12 +25,12 @@ style: planet
 
 <div id="Data" class="tabcontent" markdown="1">"<div id="Data" class="tabcontent" markdown="1">
 
-{% include data/CoRoT-01.md %}
+  {% include data/CoRoT-01.md %}
 </div> 
 </div> 
 
 <div id="Figures" class="tabcontent" markdown="1">
-{% include figures/figures_CoRoT-01.md %}
+ {% include figures/figures_CoRoT-01.md %}
 </div>
 
 
