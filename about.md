@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+This website provides results from the journal article <LINK>. 
+
 We provide updated transit ephemerides for 277 hot Jupiters, based on data from 
 the NASA Transiting Exoplanet Survey Satellite (TESS) and  previously reported
 transit times which were scraped from the literature in a semi-automated fashion.
