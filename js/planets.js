@@ -1,8 +1,8 @@
 let planets = {
-    "WASP-12": "wasp-12.html"
-    "CoRoT-01": "CoRoT-01.html"
-    "CoRoT-02": "CoRoT-02.html"
-    "CoRoT-05": "CoRoT-05.html"
+    "WASP-12": "wasp-12.html",
+    "CoRoT-01": "CoRoT-01.html",
+    "CoRoT-02": "CoRoT-02.html",
+    "CoRoT-05": "CoRoT-05.html",
 };
 
 let planetData = {
