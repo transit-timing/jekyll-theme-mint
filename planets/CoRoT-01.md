@@ -23,7 +23,7 @@ style: planet
   ![alt text](/images/CoRoT-01_o_c.png)
 </div>
 
-<div id="Data" class="tabcontent" markdown="1">"<div id="Data" class="tabcontent" markdown="1">
+<div id="Data" class="tabcontent" markdown="1">
 
   {% include data/data_CoRoT-01.md %}
 
