@@ -1,4 +1,4 @@
-let planets = {
+let planetPaths = {
     "WASP-12": "wasp-12.html",
     "CoRoT-01": "CoRoT-01.html",
     "CoRoT-02": "CoRoT-02.html",

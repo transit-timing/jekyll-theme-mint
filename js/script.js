@@ -6,7 +6,7 @@ const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
 let webLink;
 
-const suggestions = Object.keys(planets);
+const suggestions = Object.keys(planetPaths);
 
 // if user press any key and release
 inputBox.onkeyup = (e)=>{
@@ -36,7 +36,7 @@ inputBox.onkeyup = (e)=>{
 function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
-    webLink = "planets/" + planets[selectData];
+    webLink = "planets/" + planetPaths[selectData];
     linkTag.setAttribute("href", webLink);
     linkTag.click();
     searchWrapper.classList.remove("active");
