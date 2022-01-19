@@ -16,7 +16,7 @@ style: planet
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
 <br/><br/>
-$$P = 5.63346961(64) $$ day
+$$P = 5.63346961(64) $$ day <br/>
 $$T_0 = 2455756.42709(34) $$ BJD TDB
 <br/><br/>
 <br/><br/>
