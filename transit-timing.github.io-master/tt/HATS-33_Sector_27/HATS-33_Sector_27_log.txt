@@ -1,0 +1,744 @@
+HATS-33_Sector_27
+Starting at  11/14/2021, 23:38:52
+(array([150., 150., 150., ..., 159., 159., 159.]), array([0.96069845, 0.96347622, 0.96486511, ..., 2.26846866, 2.26985751,
+       2.27124636]))
+   Detrended orbit  150  with polynomial of order  1 , scatter =  0.0020343977547601514
+   Detrended orbit  151  with polynomial of order  1 , scatter =  0.002039022394658775
+   Detrended orbit  152  with polynomial of order  2 , scatter =  0.0018931094789716948
+   Detrended orbit  153  with polynomial of order  1 , scatter =  0.0019983735365758483
+   Detrended orbit  154  with polynomial of order  1 , scatter =  0.002269130030298139
+   Detrended orbit  155  with polynomial of order  3 , scatter =  0.002064041438499156
+   Detrended orbit  156  with polynomial of order  1 , scatter =  0.0017602262331109218
+   Detrended orbit  157  with polynomial of order  1 , scatter =  0.001950774590558047
+   Detrended orbit  158  with polynomial of order  1 , scatter =  0.002151737323210985
+   Detrended orbit  159  with polynomial of order  1 , scatter =  0.002193267737094448
+(array([150., 150., 150., ..., 159., 159., 159.]), array([1.05236513, 1.05375402, 1.05514291, ..., 1.49487776, 1.49626661,
+       1.49765546]))
+
+Fitting the folded light curve.
+
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 75
+    # data points      = 3185
+    # variables        = 5
+    chi-square         = 3289.08813
+    reduced chi-square = 1.03430444
+    Akaike info crit   = 112.423459
+    Bayesian info crit = 142.754497
+[[Variables]]
+    period:       2.549563 (fixed)
+    t0:          -5.9900e-05 +/- 1.5610e-04 (260.60%) (init = 0)
+    radratio:     0.11333732 +/- 0.00111575 (0.98%) (init = 0.148324)
+    a_over_r:     8.12400838 +/- 0.27096768 (3.34%) (init = 6.303354)
+    impactparam:  0.28403580 +/- 0.11484026 (40.43%) (init = 0.5)
+    limbdark1:    0.44780500 +/- 0.03761805 (8.40%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.989
+    C(radratio, impactparam)  = 0.868
+    C(radratio, a_over_r)     = -0.809
+    C(radratio, limbdark1)    = -0.586
+    C(impactparam, limbdark1) = -0.244
+    C(a_over_r, limbdark1)    = 0.139
+Before applying MAD mask
+Before applying MAD mask
+
+Working on transit serial number  0 , orbit number  150
+Intial de-trending coefficients:  [-1.05608349e+00  5.00154803e+03]
+lmfit outputs t0:  <Parameter 't0', value=2036.5966562755461 +/- 0.000472, bounds=[2036.4861527122048:2036.7091527122047]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000297282612708798
+starting MCMC with t0 =  2036.5964694257946
+   Done, acceptance rate 0 =  0.2142
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000297282612708798
+starting MCMC with t0 =  2036.5957004704194
+   Done, acceptance rate 0 =  0.2129
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000297282612708798
+starting MCMC with t0 =  2036.594256117649
+   Done, acceptance rate 0 =  0.2146
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000297282612708798
+starting MCMC with t0 =  2036.5955217728067
+   Done, acceptance rate 0 =  0.213
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000297282612708798
+starting MCMC with t0 =  2036.5924761227895
+   Done, acceptance rate 0 =  0.2092
+Coeffs estimated with MCMC:  [-1.05799815e+00  5.00155254e+03]
+Dispersion/t0_unc:  0.05412449557429114
+Dispersion:  2.632340867299764e-05
+MCMC converged
+MCMC results for t0 =  2036.5966439636472 0.00048634926559022057
+
+Working on transit serial number  1 , orbit number  151
+Intial de-trending coefficients:  [-2.74241407e+00  4.98806444e+03]
+lmfit outputs t0:  <Parameter 't0', value=2039.1467778633405 +/- 0.000499, bounds=[2039.03571595563:2039.25871595563]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002979584024007023
+starting MCMC with t0 =  2039.1519662043231
+   Done, acceptance rate 0 =  0.2101
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002979584024007023
+starting MCMC with t0 =  2039.1463462596591
+   Done, acceptance rate 0 =  0.2269
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002979584024007023
+starting MCMC with t0 =  2039.149931066047
+   Done, acceptance rate 0 =  0.2168
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002979584024007023
+starting MCMC with t0 =  2039.1407572098162
+   Done, acceptance rate 0 =  0.2067
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002979584024007023
+starting MCMC with t0 =  2039.146162224697
+   Done, acceptance rate 0 =  0.2049
+Coeffs estimated with MCMC:  [-2.74383795e+00  4.98806274e+03]
+Dispersion/t0_unc:  0.034855140552151324
+Dispersion:  1.7003749378839557e-05
+MCMC converged
+MCMC results for t0 =  2039.1467815457854 0.00048784050528782196
+
+Working on transit serial number  2 , orbit number  152
+Intial de-trending coefficients:  [ 156.00531241   -9.15729587 4990.10415586]
+lmfit outputs t0:  <Parameter 't0', value=2041.6963423222128 +/- 0.000464, bounds=[2041.585279199055:2041.808279199055]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620653628618585
+starting MCMC with t0 =  2041.694798052914
+   Done, acceptance rate 0 =  0.1975
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620653628618585
+starting MCMC with t0 =  2041.69484834286
+   Done, acceptance rate 0 =  0.204
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620653628618585
+starting MCMC with t0 =  2041.6941017195086
+   Done, acceptance rate 0 =  0.206
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620653628618585
+starting MCMC with t0 =  2041.692620555068
+   Done, acceptance rate 0 =  0.2053
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620653628618585
+starting MCMC with t0 =  2041.6986360486026
+   Done, acceptance rate 0 =  0.2059
+Coeffs estimated with MCMC:  [ 156.00657773   -9.15358542 4990.10821494]
+Dispersion/t0_unc:  0.03419544936873354
+Dispersion:  1.5951954088484633e-05
+MCMC converged
+MCMC results for t0 =  2041.6963256765134 0.0004664934774353406
+
+Working on transit serial number  3 , orbit number  153
+Intial de-trending coefficients:  [1.65607373e+00 4.98725077e+03]
+lmfit outputs t0:  <Parameter 't0', value=2044.2460374642005 +/- 0.000485, bounds=[2044.1348424424802:2044.3578424424802]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201846331738067
+starting MCMC with t0 =  2044.2427228439783
+   Done, acceptance rate 0 =  0.222
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201846331738067
+starting MCMC with t0 =  2044.243525909853
+   Done, acceptance rate 0 =  0.2263
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201846331738067
+starting MCMC with t0 =  2044.245762732525
+   Done, acceptance rate 0 =  0.225
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201846331738067
+starting MCMC with t0 =  2044.2452290222227
+   Done, acceptance rate 0 =  0.2193
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201846331738067
+starting MCMC with t0 =  2044.2487775606155
+   Done, acceptance rate 0 =  0.2223
+Coeffs estimated with MCMC:  [1.65736009e+00 4.98724858e+03]
+Dispersion/t0_unc:  0.02081357431322757
+Dispersion:  1.0793948329497371e-05
+MCMC converged
+MCMC results for t0 =  2044.2460451170193 0.0005186013784589385
+
+Working on transit serial number  4 , orbit number  154
+Intial de-trending coefficients:  [5.85915815e-01 5.00138233e+03]
+lmfit outputs t0:  <Parameter 't0', value=2046.7954216630044 +/- 0.000559, bounds=[2046.6844056859054:2046.9074056859054]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315835865452744
+starting MCMC with t0 =  2046.799450049337
+   Done, acceptance rate 0 =  0.2745
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315835865452744
+starting MCMC with t0 =  2046.7946149612198
+   Done, acceptance rate 0 =  0.271
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315835865452744
+starting MCMC with t0 =  2046.7945147624175
+   Done, acceptance rate 0 =  0.2744
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315835865452744
+starting MCMC with t0 =  2046.7978406112868
+   Done, acceptance rate 0 =  0.2782
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315835865452744
+starting MCMC with t0 =  2046.7932889454332
+   Done, acceptance rate 0 =  0.2761
+Coeffs estimated with MCMC:  [5.80043493e-01 5.00138054e+03]
+Dispersion/t0_unc:  0.032165322646540435
+Dispersion:  2.085523790811651e-05
+MCMC converged
+MCMC results for t0 =  2046.7954236724731 0.0006483764561385368
+
+Working on transit serial number  5 , orbit number  155
+Intial de-trending coefficients:  [1546.24651562 -251.93171277  -14.64875289 5007.08525008]
+lmfit outputs t0:  <Parameter 't0', value=2049.345817538563 +/- 0.000517, bounds=[2049.2339689293303:2049.4569689293303]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151598640213798
+starting MCMC with t0 =  2049.3426626810233
+   Done, acceptance rate 0 =  0.2251
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151598640213798
+starting MCMC with t0 =  2049.345760153826
+   Done, acceptance rate 0 =  0.2197
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151598640213798
+starting MCMC with t0 =  2049.347451321449
+   Done, acceptance rate 0 =  0.2278
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151598640213798
+starting MCMC with t0 =  2049.34344459646
+   Done, acceptance rate 0 =  0.2194
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151598640213798
+starting MCMC with t0 =  2049.3472297822505
+   Done, acceptance rate 0 =  0.2176
+Coeffs estimated with MCMC:  [1546.2502782  -251.9322939   -14.64723421 5007.08775508]
+Dispersion/t0_unc:  0.05444619371697162
+Dispersion:  2.7802686041523292e-05
+MCMC converged
+MCMC results for t0 =  2049.345842943864 0.0005106451735827553
+
+Working on transit serial number  6 , orbit number  156
+Intial de-trending coefficients:  [  -5.61283164 4982.00159845]
+lmfit outputs t0:  <Parameter 't0', value=2051.8955152857857 +/- 0.000446, bounds=[2051.7835321727557:2052.0065321727557]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002572184580490131
+starting MCMC with t0 =  2051.89981893132
+   Done, acceptance rate 0 =  0.1725
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002572184580490131
+starting MCMC with t0 =  2051.895318680967
+   Done, acceptance rate 0 =  0.1747
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002572184580490131
+starting MCMC with t0 =  2051.893814407788
+   Done, acceptance rate 0 =  0.1765
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002572184580490131
+starting MCMC with t0 =  2051.893669525493
+   Done, acceptance rate 0 =  0.1744
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002572184580490131
+starting MCMC with t0 =  2051.8963944913357
+   Done, acceptance rate 0 =  0.1703
+Coeffs estimated with MCMC:  [  -5.61671257 4982.002236  ]
+Dispersion/t0_unc:  0.024164538101087995
+Dispersion:  9.659907992438295e-06
+MCMC converged
+MCMC results for t0 =  2051.895510146316 0.0003997555406202183
+
+Working on transit serial number  7 , orbit number  157
+Intial de-trending coefficients:  [  21.23544549 4999.49087646]
+lmfit outputs t0:  <Parameter 't0', value=2054.4457048607737 +/- 0.0005, bounds=[2054.333095416181:2054.556095416181]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00028506292131422634
+starting MCMC with t0 =  2054.4481557549307
+   Done, acceptance rate 0 =  0.2187
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00028506292131422634
+starting MCMC with t0 =  2054.444848353547
+   Done, acceptance rate 0 =  0.2256
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00028506292131422634
+starting MCMC with t0 =  2054.447233467276
+   Done, acceptance rate 0 =  0.2162
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00028506292131422634
+starting MCMC with t0 =  2054.4446627287134
+   Done, acceptance rate 0 =  0.2207
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00028506292131422634
+starting MCMC with t0 =  2054.4438432754614
+   Done, acceptance rate 0 =  0.2147
+Coeffs estimated with MCMC:  [  21.23645849 4999.49007695]
+Dispersion/t0_unc:  0.013414458283440333
+Dispersion:  6.667356769957618e-06
+MCMC converged
+MCMC results for t0 =  2054.445702142219 0.0004970276569563924
+
+Working on transit serial number  8 , orbit number  158
+Intial de-trending coefficients:  [   5.21316888 4998.68074707]
+lmfit outputs t0:  <Parameter 't0', value=2056.994442212705 +/- 0.000523, bounds=[2056.882658659606:2057.105658659606]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000314429217103915
+starting MCMC with t0 =  2056.9974927161707
+   Done, acceptance rate 0 =  0.2185
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000314429217103915
+starting MCMC with t0 =  2056.9960523308114
+   Done, acceptance rate 0 =  0.2172
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000314429217103915
+starting MCMC with t0 =  2056.9937936251567
+   Done, acceptance rate 0 =  0.2137
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000314429217103915
+starting MCMC with t0 =  2056.9957107921673
+   Done, acceptance rate 0 =  0.2073
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.000314429217103915
+starting MCMC with t0 =  2056.991244239883
+   Done, acceptance rate 0 =  0.2099
+Coeffs estimated with MCMC:  [   5.21143449 4998.68231248]
+Dispersion/t0_unc:  0.031248776750832433
+Dispersion:  1.5156499870221376e-05
+MCMC converged
+MCMC results for t0 =  2056.9944623658284 0.0004850269817303368
+
+Working on transit serial number  9 , orbit number  159
+Intial de-trending coefficients:  [  -8.99055867 4994.75149143]
+lmfit outputs t0:  <Parameter 't0', value=2059.543806339343 +/- 0.000708, bounds=[2059.432221903031:2059.655221903031]>
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999992157883853
+starting MCMC with t0 =  2059.545871351691
+   Done, acceptance rate 0 =  0.2309
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999992157883853
+starting MCMC with t0 =  2059.5404287194115
+   Done, acceptance rate 0 =  0.2268
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999992157883853
+starting MCMC with t0 =  2059.5469504407833
+   Done, acceptance rate 0 =  0.2317
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999992157883853
+starting MCMC with t0 =  2059.5409027539977
+   Done, acceptance rate 0 =  0.2351
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999992157883853
+starting MCMC with t0 =  2059.5487463199274
+   Done, acceptance rate 0 =  0.2279
+Coeffs estimated with MCMC:  [  -8.98979653 4994.75004417]
+Dispersion/t0_unc:  0.05174598196364243
+Dispersion:  2.7337430696694637e-05
+MCMC converged
+MCMC results for t0 =  2059.5438065976164 0.0005283005493238559
+Indices of excluded orbits:  []
+initial_detrended_flux.shape:  (3185,)
+t.shape:  (3185,)
+initial_flux_uncertainties.shape:  (3185,)
+stage 2 shapes: 
+oibeo_stage2_.shape:  (3185,)
+flux_uncertainty_stage2.shape:  (3185,)
+time_stage2.shape:  (3185,)
+detrended_flux_stage2.shape:  (3185,)
+flux_data_stage2_.shape:  (3185,)
+(array([150., 150., 150., ..., 159., 159., 159.]), array([1.05236513, 1.05375402, 1.05514291, ..., 1.49487776, 1.49626661,
+       1.49765546]))
+Making sure shapes at stage 2 match:
+(3185,) (3185,) (3185,)
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 191
+    # data points      = 3185
+    # variables        = 6
+    chi-square         = 3288.25871
+    reduced chi-square = 1.03436889
+    Akaike info crit   = 113.620188
+    Bayesian info crit = 150.017434
+[[Variables]]
+    period:       2.549563 (fixed)
+    t0:          -6.1082e-05 +/- 1.5738e-04 (257.66%) (init = 0)
+    radratio:     0.11216759 +/- 0.00204077 (1.82%) (init = 0.148324)
+    a_over_r:     8.21483472 +/- 0.34039342 (4.14%) (init = 6.303354)
+    impactparam:  0.21147674 +/- 0.21997145 (104.02%) (init = 0.5)
+    limbdark1:    0.33520930 +/- 0.12802814 (38.19%) (init = 0.5)
+    limbdark2:    0.24826507 +/- 0.28736495 (115.75%) (init = 0)
+    delta:        0.58347437 +/- 0.17356013 (29.75%) == 'limbdark2+limbdark1'
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.978
+    C(limbdark1, limbdark2)   = -0.936
+    C(radratio, impactparam)  = 0.898
+    C(radratio, a_over_r)     = -0.796
+    C(radratio, limbdark2)    = -0.740
+    C(impactparam, limbdark2) = -0.516
+    C(radratio, limbdark1)    = 0.505
+    C(a_over_r, limbdark2)    = 0.360
+    C(impactparam, limbdark1) = 0.320
+    C(a_over_r, limbdark1)    = -0.191
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 75
+    # data points      = 3185
+    # variables        = 5
+    chi-square         = 3289.08756
+    reduced chi-square = 1.03430426
+    Akaike info crit   = 112.422908
+    Bayesian info crit = 142.753946
+[[Variables]]
+    period:       2.549563 (fixed)
+    t0:          -6.0077e-05 +/- 1.5609e-04 (259.82%) (init = 0)
+    radratio:     0.11333703 +/- 0.00111576 (0.98%) (init = 0.148324)
+    a_over_r:     8.12410383 +/- 0.27097478 (3.34%) (init = 6.303354)
+    impactparam:  0.28399707 +/- 0.11487181 (40.45%) (init = 0.5)
+    limbdark1:    0.44780520 +/- 0.03761704 (8.40%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.989
+    C(radratio, impactparam)  = 0.868
+    C(radratio, a_over_r)     = -0.809
+    C(radratio, limbdark1)    = -0.586
+    C(impactparam, limbdark1) = -0.243
+    C(a_over_r, limbdark1)    = 0.139
+Model chosen:  0
+Timing the transits after applying MAD mask
+
+Working on transit serial number  0 , orbit number  150
+Theoretically estimated timing uncertainty [days,min]   =  0.0002559237417378213 0.3685301881024627
+lmfit outputs t0:  2036.5966562432695 0.00047220222818405506
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029728024198427347
+starting MCMC with t0 =  2036.598913931549
+   Done, acceptance rate 0 =  0.217
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029728024198427347
+starting MCMC with t0 =  2036.5921480863867
+   Done, acceptance rate 0 =  0.2163
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029728024198427347
+starting MCMC with t0 =  2036.592881092212
+   Done, acceptance rate 0 =  0.2141
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029728024198427347
+starting MCMC with t0 =  2036.6031692784757
+   Done, acceptance rate 0 =  0.2138
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029728024198427347
+starting MCMC with t0 =  2036.5922495772647
+   Done, acceptance rate 0 =  0.2041
+t0_86th_percentile - t0_50th_percentile =  0.0005309816676799528
+t0_unc_mcmc =  0.0005799713283635695
+Coeffs estimated with MCMC:  [-1.05573465e+00  5.00154781e+03]
+Dispersion/t0_unc:  0.02592145734403067
+Dispersion:  1.5033702048937073e-05
+MCMC converged
+MCMC results for t0 =  2036.5966702018798 0.0005799713283635695
+
+Working on transit serial number  1 , orbit number  151
+Theoretically estimated timing uncertainty [days,min]   =  0.00029795602628699216 0.42905667785326873
+lmfit outputs t0:  2039.1467777978835 0.000517083175657813
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029795602628699216
+starting MCMC with t0 =  2039.1531739738027
+   Done, acceptance rate 0 =  0.2073
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029795602628699216
+starting MCMC with t0 =  2039.1481405842242
+   Done, acceptance rate 0 =  0.2058
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029795602628699216
+starting MCMC with t0 =  2039.1476367479584
+   Done, acceptance rate 0 =  0.2137
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029795602628699216
+starting MCMC with t0 =  2039.143486272402
+   Done, acceptance rate 0 =  0.2109
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029795602628699216
+starting MCMC with t0 =  2039.1451203410722
+   Done, acceptance rate 0 =  0.2095
+t0_86th_percentile - t0_50th_percentile =  0.0005258986664102849
+t0_unc_mcmc =  0.0005979293182844462
+Coeffs estimated with MCMC:  [-2.74213564e+00  4.98806140e+03]
+Dispersion/t0_unc:  0.026691568509075916
+Dispersion:  1.5959671362574353e-05
+MCMC converged
+MCMC results for t0 =  2039.1468048201957 0.0005979293182844462
+
+Working on transit serial number  2 , orbit number  152
+Theoretically estimated timing uncertainty [days,min]   =  0.00027620433363597556 0.3977342404358048
+lmfit outputs t0:  2041.6963423291475 0.0004802306704581356
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620433363597556
+starting MCMC with t0 =  2041.6948652465026
+   Done, acceptance rate 0 =  0.1986
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620433363597556
+starting MCMC with t0 =  2041.6939119789602
+   Done, acceptance rate 0 =  0.2028
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620433363597556
+starting MCMC with t0 =  2041.6957329441507
+   Done, acceptance rate 0 =  0.1978
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620433363597556
+starting MCMC with t0 =  2041.6944162801321
+   Done, acceptance rate 0 =  0.2022
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027620433363597556
+starting MCMC with t0 =  2041.6953382318375
+   Done, acceptance rate 0 =  0.1979
+t0_86th_percentile - t0_50th_percentile =  0.0004753713362788403
+t0_unc_mcmc =  0.00045096744743600706
+Coeffs estimated with MCMC:  [ 156.00821275   -9.15662329 4990.10226799]
+Dispersion/t0_unc:  0.022155132764097748
+Dispersion:  9.991243670231009e-06
+MCMC converged
+MCMC results for t0 =  2041.6963327430199 0.00045096744743600706
+
+Working on transit serial number  3 , orbit number  153
+Theoretically estimated timing uncertainty [days,min]   =  0.00029201613457260044 0.4205032337845446
+lmfit outputs t0:  2044.2460375166045 0.00048262745760374587
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201613457260044
+starting MCMC with t0 =  2044.246562573077
+   Done, acceptance rate 0 =  0.2228
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201613457260044
+starting MCMC with t0 =  2044.2462630649368
+   Done, acceptance rate 0 =  0.2169
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201613457260044
+starting MCMC with t0 =  2044.2484571962696
+   Done, acceptance rate 0 =  0.2203
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201613457260044
+starting MCMC with t0 =  2044.2453179417391
+   Done, acceptance rate 0 =  0.2172
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00029201613457260044
+starting MCMC with t0 =  2044.2460018357847
+   Done, acceptance rate 0 =  0.2173
+t0_86th_percentile - t0_50th_percentile =  0.0005523755085050652
+t0_unc_mcmc =  0.0005101355615500776
+Coeffs estimated with MCMC:  [1.66242138e+00 4.98724946e+03]
+Dispersion/t0_unc:  0.028329129488806525
+Dispersion:  1.445169637999718e-05
+MCMC converged
+MCMC results for t0 =  2044.2460513543454 0.0005101355615500776
+
+Working on transit serial number  4 , orbit number  154
+Theoretically estimated timing uncertainty [days,min]   =  0.0003315809422825193 0.47747655688682783
+lmfit outputs t0:  2046.7954216166638 0.0005414007130998512
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315809422825193
+starting MCMC with t0 =  2046.794694894151
+   Done, acceptance rate 0 =  0.2692
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315809422825193
+starting MCMC with t0 =  2046.7923593676592
+   Done, acceptance rate 0 =  0.2762
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315809422825193
+starting MCMC with t0 =  2046.7937086723862
+   Done, acceptance rate 0 =  0.2667
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315809422825193
+starting MCMC with t0 =  2046.791464477659
+   Done, acceptance rate 0 =  0.2651
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003315809422825193
+starting MCMC with t0 =  2046.7968132300502
+   Done, acceptance rate 0 =  0.2746
+t0_86th_percentile - t0_50th_percentile =  0.0006724195600327221
+t0_unc_mcmc =  0.0006378034082805545
+Coeffs estimated with MCMC:  [5.89639228e-01 5.00137811e+03]
+Dispersion/t0_unc:  0.026806311560609503
+Dispersion:  1.709715687678717e-05
+MCMC converged
+MCMC results for t0 =  2046.7954280258941 0.0006378034082805545
+
+Working on transit serial number  5 , orbit number  155
+Theoretically estimated timing uncertainty [days,min]   =  0.0003151573507320489 0.45382658505415047
+lmfit outputs t0:  2049.3458175613287 0.0005167784594688923
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151573507320489
+starting MCMC with t0 =  2049.3437758887458
+   Done, acceptance rate 0 =  0.2175
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151573507320489
+starting MCMC with t0 =  2049.3468849260025
+   Done, acceptance rate 0 =  0.2251
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151573507320489
+starting MCMC with t0 =  2049.3471328192786
+   Done, acceptance rate 0 =  0.2193
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151573507320489
+starting MCMC with t0 =  2049.3490843153
+   Done, acceptance rate 0 =  0.2163
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003151573507320489
+starting MCMC with t0 =  2049.344087754792
+   Done, acceptance rate 0 =  0.2167
+t0_86th_percentile - t0_50th_percentile =  0.0005646248764605843
+t0_unc_mcmc =  0.0005093696639733678
+Coeffs estimated with MCMC:  [1546.24515375 -251.93146978  -14.65131682 5007.0843653 ]
+Dispersion/t0_unc:  0.03541473466954546
+Dispersion:  1.8039191498332346e-05
+MCMC converged
+MCMC results for t0 =  2049.3458436172245 0.0005093696639733678
+
+Working on transit serial number  6 , orbit number  156
+Theoretically estimated timing uncertainty [days,min]   =  0.00025721640682206415 0.3703916258237724
+lmfit outputs t0:  2051.8955155266112 0.0004445185198865226
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00025721640682206415
+starting MCMC with t0 =  2051.8910716586947
+   Done, acceptance rate 0 =  0.1752
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00025721640682206415
+starting MCMC with t0 =  2051.896334816451
+   Done, acceptance rate 0 =  0.1769
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00025721640682206415
+starting MCMC with t0 =  2051.8960873910896
+   Done, acceptance rate 0 =  0.1824
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00025721640682206415
+starting MCMC with t0 =  2051.8978472931526
+   Done, acceptance rate 0 =  0.1803
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00025721640682206415
+starting MCMC with t0 =  2051.9034211836924
+   Done, acceptance rate 0 =  0.1737
+t0_86th_percentile - t0_50th_percentile =  0.0004310396589062293
+t0_unc_mcmc =  0.0004804078108948192
+Coeffs estimated with MCMC:  [  -5.6157592  4981.99887124]
+Dispersion/t0_unc:  0.03149804921604422
+Dispersion:  1.5131908871337079e-05
+MCMC converged
+MCMC results for t0 =  2051.8955105704877 0.0004804078108948192
+
+Working on transit serial number  7 , orbit number  157
+Theoretically estimated timing uncertainty [days,min]   =  0.0002850606480374531 0.41048733317393243
+lmfit outputs t0:  2054.4457044583087 0.0005128522080830139
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002850606480374531
+starting MCMC with t0 =  2054.446476529325
+   Done, acceptance rate 0 =  0.2124
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002850606480374531
+starting MCMC with t0 =  2054.4435341682556
+   Done, acceptance rate 0 =  0.2141
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002850606480374531
+starting MCMC with t0 =  2054.4444610577075
+   Done, acceptance rate 0 =  0.2131
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002850606480374531
+starting MCMC with t0 =  2054.443847501827
+   Done, acceptance rate 0 =  0.2169
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002850606480374531
+starting MCMC with t0 =  2054.4450047890937
+   Done, acceptance rate 0 =  0.2159
+t0_86th_percentile - t0_50th_percentile =  0.0005404437210927426
+t0_unc_mcmc =  0.0005043862192686685
+Coeffs estimated with MCMC:  [  21.23108988 4999.49432214]
+Dispersion/t0_unc:  0.024610355950534048
+Dispersion:  1.2413124392746047e-05
+MCMC converged
+MCMC results for t0 =  2054.4457085092376 0.0005043862192686685
+
+Working on transit serial number  8 , orbit number  158
+Theoretically estimated timing uncertainty [days,min]   =  0.0003144267096412369 0.45277446188338116
+lmfit outputs t0:  2056.994442174497 0.0005227970630205307
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003144267096412369
+starting MCMC with t0 =  2056.9942324801336
+   Done, acceptance rate 0 =  0.2099
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003144267096412369
+starting MCMC with t0 =  2056.991338659664
+   Done, acceptance rate 0 =  0.2223
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003144267096412369
+starting MCMC with t0 =  2056.992552157842
+   Done, acceptance rate 0 =  0.2152
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003144267096412369
+starting MCMC with t0 =  2056.991356896179
+   Done, acceptance rate 0 =  0.2069
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0003144267096412369
+starting MCMC with t0 =  2056.993836634617
+   Done, acceptance rate 0 =  0.2172
+t0_86th_percentile - t0_50th_percentile =  0.0005478409998431744
+t0_unc_mcmc =  0.0004934315686871308
+Coeffs estimated with MCMC:  [   5.21571432 4998.68176155]
+Dispersion/t0_unc:  0.02713468311571222
+Dispersion:  1.3389109255614084e-05
+MCMC converged
+MCMC results for t0 =  2056.99445258026 0.0004934315686871308
+
+Working on transit serial number  9 , orbit number  159
+Theoretically estimated timing uncertainty [days,min]   =  0.00031999736969174703 0.46079621235611573
+lmfit outputs t0:  2059.543806519741 0.0004717333798476626
+1/40 * duration  0.0027875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999736969174703
+starting MCMC with t0 =  2059.5404194780413
+   Done, acceptance rate 0 =  0.233
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999736969174703
+starting MCMC with t0 =  2059.5410338129977
+   Done, acceptance rate 0 =  0.2252
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999736969174703
+starting MCMC with t0 =  2059.5417159521344
+   Done, acceptance rate 0 =  0.232
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999736969174703
+starting MCMC with t0 =  2059.5436657575674
+   Done, acceptance rate 0 =  0.2242
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00031999736969174703
+starting MCMC with t0 =  2059.542338592081
+   Done, acceptance rate 0 =  0.2247
+t0_86th_percentile - t0_50th_percentile =  0.0005594818780991773
+t0_unc_mcmc =  0.0005308803873180179
+Coeffs estimated with MCMC:  [  -8.99010856 4994.74864214]
+Dispersion/t0_unc:  0.04084168720829675
+Dispersion:  2.1682050723861916e-05
+MCMC converged
+MCMC results for t0 =  2059.5438186651995 0.0005308803873180179
+
+Plotting the time series.
+
+Calculating transit timing deviations.
+  Uncertainty method  1 : number of valid transit times =  10
+Chisqr, Ndof, Ndata, Np =  4.919526161658875 8 10 2
+ uncertainty estimated from LMFIT  [0.0004722  0.00051708 0.00048023 0.00048263 0.0005414  0.00051678
+ 0.00044452 0.00051285 0.0005228  0.00047173]
+  Uncertainty method  0 : number of valid transit times =  10
+Chisqr, Ndof, Ndata, Np =  5.487582364574919 8 10 2

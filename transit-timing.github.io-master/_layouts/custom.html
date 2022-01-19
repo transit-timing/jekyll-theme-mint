@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='{{ page.lang | default: site.lang | default: 'en' }}'>
+  {% include head.html %}
+  <style>
+    .post table {
+      max-width: 900px;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <div class='layout'>
+      {% include header.html %}
+    </div>
+    <main class='main'>
+      <article class='post'>
+        {{ content }}
+      </article>
+    </main>
+  </body>
+</html>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>

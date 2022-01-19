@@ -1,0 +1,40 @@
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  {% seo %}
+
+  {% case site.blog_theme %}
+    {% when 'light' %}
+      <link rel='stylesheet' href='{{ '/assets/light.css' | relative_url }}'>
+    {% when 'dark' %}
+      <link rel='stylesheet' href='{{ '/assets/dark.css' | relative_url }}'>
+    {% when 'auto' %}
+      <link rel='stylesheet' href='{{ '/assets/light.css' | relative_url }}'>
+      <link rel='stylesheet' href='{{ '/assets/dark.css' | relative_url }}' media="(prefers-color-scheme: dark)">
+  {% endcase %}
+
+  <style type='text/css' media='screen'>
+     :root {
+      {% if site.light-theme-accent-color %}
+        --light-theme-accent-color: {{ site.light-theme-accent-color }};
+      {% endif %}
+
+      {% if site.dark-theme-accent-color %}
+        --dark-theme-accent-color: {{ site.dark-theme-accent-color }};
+      {% endif %}
+     }
+  </style>
+
+  {% if page.style == 'search' %}
+    <link rel='stylesheet' href='{{ '/assets/search.css' | relative_url }}'>
+  {% elsif page.style == 'planet' %}
+    <link rel='stylesheet' href='{{ '/assets/planet.css' | relative_url }}'>
+  {% endif %}
+
+  {% if page.planetdata == true %}
+    <script src="js/planets.js"></script>
+  {% endif %}
+
+  {% feed_meta %}
+  {% include google_analytics.html %}
+</head>
