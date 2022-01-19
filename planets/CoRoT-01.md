@@ -17,8 +17,8 @@
     <!-- Tab content -->
     <div id="Ephemeris" class="tabcontent" markdown="1">
     <br/><br/>
-      Period: 1.508968772 pm 8.3e-08 day 
-      Primary transit: 2456268.99119 pm 0.00012 BJD TDB
+      $$P= 1.508968772 \pm 8.3e-08 day$$
+      $$T_0 = 2456268.99119 \pm 0.00012 BJD TDB$$
       <br/><br/>
       <br/><br/>
       ![alt text](/images/CoRoT-01_o_c.png)
