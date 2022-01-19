@@ -1,0 +1,188 @@
+WASP-117_Sector_29
+Starting at  11/14/2021, 23:49:12
+(array([114., 114., 114., ..., 116., 116., 116.]), array([4.17714381, 4.17853274, 4.17992167, ..., 8.86689311, 8.86828201,
+       8.8696709 ]))
+Rejecting data from orbit  115
+  n_tra, min_npts_tra =  178 5.0  and n_pre, n_post, min_npts_oot =  222 84 160.38
+   Detrended orbit  114  with polynomial of order  1 , scatter =  0.0007970909699657025
+   Detrended orbit  116  with polynomial of order  1 , scatter =  0.0008352457049817865
+(array([114., 114., 114., ..., 116., 116., 116.]), array([4.51604274, 4.51743167, 4.5188206 , ..., 5.5015981 , 5.50298699,
+       5.50437589]))
+
+Fitting the folded light curve.
+
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 56
+    # data points      = 1424
+    # variables        = 5
+    chi-square         = 1462.33403
+    reduced chi-square = 1.03053843
+    Akaike info crit   = 47.8271330
+    Bayesian info crit = 74.1332584
+[[Variables]]
+    period:       10.02059 (fixed)
+    t0:          -2.4181e-05 +/- 3.3853e-04 (1400.02%) (init = 0)
+    radratio:     0.08562412 +/- 7.9192e-04 (0.92%) (init = 0.08944272)
+    a_over_r:     13.6030755 +/- 0.53360731 (3.92%) (init = 11.16089)
+    impactparam:  0.34918344 +/- 0.10184134 (29.17%) (init = 0.5)
+    limbdark1:    0.41217156 +/- 0.03592630 (8.72%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.994
+    C(radratio, impactparam)  = 0.879
+    C(radratio, a_over_r)     = -0.844
+    C(radratio, limbdark1)    = -0.457
+    C(impactparam, limbdark1) = -0.152
+Before applying MAD mask
+Indices of excluded orbits:  []
+initial_detrended_flux.shape:  (1424,)
+t.shape:  (1424,)
+initial_flux_uncertainties.shape:  (1424,)
+stage 2 shapes: 
+oibeo_stage2_.shape:  (1424,)
+flux_uncertainty_stage2.shape:  (1424,)
+time_stage2.shape:  (1424,)
+detrended_flux_stage2.shape:  (1424,)
+flux_data_stage2_.shape:  (1424,)
+(array([114., 114., 114., ..., 116., 116., 116.]), array([4.51604274, 4.51743167, 4.5188206 , ..., 5.5015981 , 5.50298699,
+       5.50437589]))
+Making sure shapes at stage 2 match:
+(1424,) (1424,) (1424,)
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 664
+    # data points      = 1424
+    # variables        = 6
+    chi-square         = 1462.46702
+    reduced chi-square = 1.03135897
+    Akaike info crit   = 49.9566274
+    Bayesian info crit = 81.5239780
+[[Variables]]
+    period:       10.02059 (fixed)
+    t0:           1.3376e-06 +/- 3.4051e-04 (25457.42%) (init = 0)
+    radratio:     0.08592393 +/- 0.00113168 (1.32%) (init = 0.08944272)
+    a_over_r:     13.3703933 +/- 0.56259707 (4.21%) (init = 11.16089)
+    impactparam:  0.39065883 +/- 0.10038236 (25.70%) (init = 0.5)
+    limbdark1:    0.41063187 +/- 0.16706671 (40.69%) (init = 0.5)
+    limbdark2:    1.3090e-07 +/- 0.13221926 (101010620.35%) (init = 0)
+    delta:        0.41063200 +/- 0.04819304 (11.74%) == 'limbdark2+limbdark1'
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.988
+    C(limbdark1, limbdark2)   = -0.976
+    C(radratio, impactparam)  = 0.892
+    C(radratio, a_over_r)     = -0.827
+    C(radratio, limbdark2)    = -0.730
+    C(radratio, limbdark1)    = 0.644
+    C(impactparam, limbdark2) = -0.515
+    C(impactparam, limbdark1) = 0.469
+    C(a_over_r, limbdark2)    = 0.411
+    C(a_over_r, limbdark1)    = -0.381
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 1424
+    # variables        = 5
+    chi-square         = 1462.33273
+    reduced chi-square = 1.03053751
+    Akaike info crit   = 47.8258677
+    Bayesian info crit = 74.1319932
+[[Variables]]
+    period:       10.02059 (fixed)
+    t0:          -2.3075e-05 +/- 3.3841e-04 (1466.60%) (init = 0)
+    radratio:     0.08562163 +/- 7.9202e-04 (0.93%) (init = 0.08944272)
+    a_over_r:     13.6055001 +/- 0.53376498 (3.92%) (init = 11.16089)
+    impactparam:  0.34874605 +/- 0.10194975 (29.23%) (init = 0.5)
+    limbdark1:    0.41213576 +/- 0.03592338 (8.72%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.994
+    C(radratio, impactparam)  = 0.879
+    C(radratio, a_over_r)     = -0.844
+    C(radratio, limbdark1)    = -0.457
+    C(impactparam, limbdark1) = -0.152
+Model chosen:  0
+Timing the transits after applying MAD mask
+
+Working on transit serial number  0 , orbit number  114
+Theoretically estimated timing uncertainty [days,min]   =  0.0003193744503977007 0.45989920857268907
+lmfit outputs t0:  2089.0752441798218 0.00045833815536029464
+1/40 * duration  0.0061875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027972217434954683
+starting MCMC with t0 =  2089.0784615877974
+   Done, acceptance rate 0 =  0.0882
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027972217434954683
+starting MCMC with t0 =  2089.071966293499
+   Done, acceptance rate 0 =  0.0947
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027972217434954683
+starting MCMC with t0 =  2089.081653041982
+   Done, acceptance rate 0 =  0.0957
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027972217434954683
+starting MCMC with t0 =  2089.068956523097
+   Done, acceptance rate 0 =  0.0928
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.00027972217434954683
+starting MCMC with t0 =  2089.0798348419344
+   Done, acceptance rate 0 =  0.1001
+t0_86th_percentile - t0_50th_percentile =  0.0004791586852661567
+t0_unc_mcmc =  0.00047901676653115026
+Coeffs estimated with MCMC:  [-2.40078001e+00  2.26746476e+04]
+Dispersion/t0_unc:  0.07856250578953317
+Dispersion:  3.7632757493886947e-05
+MCMC converged
+MCMC results for t0 =  2089.075248671224 0.00047901676653115026
+
+Working on transit serial number  1 , orbit number  116
+Theoretically estimated timing uncertainty [days,min]   =  0.0002927003844259045 0.42148855357330245
+lmfit outputs t0:  2109.1170269414106 0.0004722693989025281
+1/40 * duration  0.0061875
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002927003844259045
+starting MCMC with t0 =  2109.121871871974
+   Done, acceptance rate 0 =  0.1039
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002927003844259045
+starting MCMC with t0 =  2109.1127409196765
+   Done, acceptance rate 0 =  0.0972
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002927003844259045
+starting MCMC with t0 =  2109.122759998014
+   Done, acceptance rate 0 =  0.0981
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002927003844259045
+starting MCMC with t0 =  2109.128338732215
+   Done, acceptance rate 0 =  0.1036
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0002927003844259045
+starting MCMC with t0 =  2109.11574381201
+   Done, acceptance rate 0 =  0.1027
+t0_86th_percentile - t0_50th_percentile =  0.000546326654330187
+t0_unc_mcmc =  0.0005108284562096489
+Coeffs estimated with MCMC:  [5.65466523e+00 2.26659064e+04]
+Dispersion/t0_unc:  0.05463827210438699
+Dispersion:  2.791078418904673e-05
+MCMC converged
+MCMC results for t0 =  2109.1170251185094 0.0005108284562096489
+
+Plotting the time series.
+
+Calculating transit timing deviations.
+  Uncertainty method  1 : number of valid transit times =  2
+Chisqr, Ndof, Ndata, Np =  6.774881002512016e-18 0 2 2
+ uncertainty estimated from LMFIT  [0.00045834 0.00047227]
+  Uncertainty method  0 : number of valid transit times =  2
+Chisqr, Ndof, Ndata, Np =  4.8647432411675035e-18 0 2 2

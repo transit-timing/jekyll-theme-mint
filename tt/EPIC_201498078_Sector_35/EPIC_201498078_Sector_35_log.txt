@@ -1,0 +1,190 @@
+EPIC_201498078_Sector_35
+Starting at  11/14/2021, 23:36:01
+(array([60., 60., 60., ..., 62., 62., 62.]), array([5.33379543, 5.33518437, 5.33657332, ..., 6.20757453, 6.20896341,
+       6.21035229]))
+Rejecting data from orbit  61
+  n_tra, min_npts_tra =  0 5.0  and n_pre, n_post, min_npts_oot =  0 0 149.04
+   Detrended orbit  60  with polynomial of order  1 , scatter =  0.0009909181011254885
+   Detrended orbit  62  with polynomial of order  1 , scatter =  0.001106762903739252
+(array([60., 60., 60., ..., 62., 62., 62.]), array([5.35740747, 5.35879641, 5.36018536, ..., 6.20757453, 6.20896341,
+       6.21035229]))
+
+Fitting the folded light curve.
+
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 51
+    # data points      = 1277
+    # variables        = 5
+    chi-square         = 1290.92778
+    reduced chi-square = 1.01488033
+    Akaike info crit   = 23.8523787
+    Bayesian info crit = 49.6137229
+[[Variables]]
+    period:       11.63348 (fixed)
+    t0:          -6.4377e-04 +/- 0.00116451 (180.89%) (init = 0)
+    radratio:     0.05585568 +/- 0.00262047 (4.69%) (init = 0.05477226)
+    a_over_r:     13.6839097 +/- 2.14066736 (15.64%) (init = 13.94321)
+    impactparam:  0.66490387 +/- 0.13770323 (20.71%) (init = 0.5)
+    limbdark1:    0.64152367 +/- 0.11693720 (18.23%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.994
+    C(radratio, impactparam)  = 0.972
+    C(radratio, a_over_r)     = -0.962
+    C(impactparam, limbdark1) = -0.216
+    C(radratio, limbdark1)    = -0.182
+    C(a_over_r, limbdark1)    = 0.135
+Before applying MAD mask
+Indices of excluded orbits:  []
+initial_detrended_flux.shape:  (1277,)
+t.shape:  (1277,)
+initial_flux_uncertainties.shape:  (1277,)
+stage 2 shapes: 
+oibeo_stage2_.shape:  (1277,)
+flux_uncertainty_stage2.shape:  (1277,)
+time_stage2.shape:  (1277,)
+detrended_flux_stage2.shape:  (1277,)
+flux_data_stage2_.shape:  (1277,)
+(array([60., 60., 60., ..., 62., 62., 62.]), array([5.35740747, 5.35879641, 5.36018536, ..., 6.20757453, 6.20896341,
+       6.21035229]))
+Making sure shapes at stage 2 match:
+(1277,) (1277,) (1277,)
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 77
+    # data points      = 1277
+    # variables        = 6
+    chi-square         = 1290.92860
+    reduced chi-square = 1.01567946
+    Akaike info crit   = 25.8531828
+    Bayesian info crit = 56.7667960
+[[Variables]]
+    period:       11.63348 (fixed)
+    t0:          -6.4266e-04 +/- 0.00116561 (181.37%) (init = 0)
+    radratio:     0.05586420 +/- 0.00461209 (8.26%) (init = 0.05477226)
+    a_over_r:     13.6766976 +/- 2.32720219 (17.02%) (init = 13.94321)
+    impactparam:  0.66536563 +/- 0.15955955 (23.98%) (init = 0.5)
+    limbdark1:    0.64148938 +/- 0.96440555 (150.34%) (init = 0.5)
+    limbdark2:    2.7449e-05 +/- 3.20381898 (11672021.21%) (init = 0)
+    delta:        0.64151683 +/- 4.16265548 (648.88%) == 'limbdark2+limbdark1'
+[[Correlations]] (unreported correlations are < 0.100)
+    C(limbdark1, limbdark2)   = 0.993
+    C(a_over_r, impactparam)  = -0.987
+    C(radratio, impactparam)  = 0.895
+    C(radratio, a_over_r)     = -0.828
+    C(radratio, limbdark2)    = 0.824
+    C(radratio, limbdark1)    = 0.806
+    C(impactparam, limbdark2) = 0.513
+    C(impactparam, limbdark1) = 0.486
+    C(a_over_r, limbdark2)    = -0.398
+    C(a_over_r, limbdark1)    = -0.380
+
+Fitting the folded light curve.
+
+   Sigma-clipping iteration  0 : total number of outliers clipped =  0
+transit model fit with quadratic limb-darkening law to folded time-series
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 51
+    # data points      = 1277
+    # variables        = 5
+    chi-square         = 1290.92857
+    reduced chi-square = 1.01488095
+    Akaike info crit   = 23.8531567
+    Bayesian info crit = 49.6145009
+[[Variables]]
+    period:       11.63348 (fixed)
+    t0:          -6.4436e-04 +/- 0.00116440 (180.71%) (init = 0)
+    radratio:     0.05585790 +/- 0.00262055 (4.69%) (init = 0.05477226)
+    a_over_r:     13.6818501 +/- 2.14128074 (15.65%) (init = 13.94321)
+    impactparam:  0.66502685 +/- 0.13775955 (20.71%) (init = 0.5)
+    limbdark1:    0.64154807 +/- 0.11692229 (18.23%) (init = 0.5)
+    limbdark2:    0 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a_over_r, impactparam)  = -0.994
+    C(radratio, impactparam)  = 0.972
+    C(radratio, a_over_r)     = -0.962
+    C(impactparam, limbdark1) = -0.216
+    C(radratio, limbdark1)    = -0.182
+    C(a_over_r, limbdark1)    = 0.135
+Model chosen:  0
+Timing the transits after applying MAD mask
+
+Working on transit serial number  0 , orbit number  60
+Theoretically estimated timing uncertainty [days,min]   =  0.000797930434781342 1.1490198260851325
+lmfit outputs t0:  2256.321873842617 0.0015239522572845186
+1/40 * duration  0.005750000000000001
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0007895812747828261
+starting MCMC with t0 =  2256.3299337893313
+   Done, acceptance rate 0 =  0.2979
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0007895812747828261
+starting MCMC with t0 =  2256.318122246302
+   Done, acceptance rate 0 =  0.296
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0007895812747828261
+starting MCMC with t0 =  2256.3164043291954
+   Done, acceptance rate 0 =  0.2879
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0007895812747828261
+starting MCMC with t0 =  2256.3237626254822
+   Done, acceptance rate 0 =  0.2883
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0007895812747828261
+starting MCMC with t0 =  2256.3138360477615
+   Done, acceptance rate 0 =  0.296
+t0_86th_percentile - t0_50th_percentile =  0.0015377465729216055
+t0_unc_mcmc =  0.0014382347504466768
+Coeffs estimated with MCMC:  [-1.12195483e+01  1.66403289e+04]
+Dispersion/t0_unc:  0.029425026404829798
+Dispersion:  4.232009550823726e-05
+MCMC converged
+MCMC results for t0 =  2256.3218547378365 0.0014382347504466768
+
+Working on transit serial number  1 , orbit number  62
+Theoretically estimated timing uncertainty [days,min]   =  0.0009149663233392609 1.3175515056085356
+lmfit outputs t0:  2279.5925341383454 0.001786973084081756
+1/40 * duration  0.005750000000000001
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0009149663233392609
+starting MCMC with t0 =  2279.6028151256714
+   Done, acceptance rate 0 =  0.3693
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0009149663233392609
+starting MCMC with t0 =  2279.598029995108
+   Done, acceptance rate 0 =  0.3616
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0009149663233392609
+starting MCMC with t0 =  2279.594126260202
+   Done, acceptance rate 0 =  0.3692
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0009149663233392609
+starting MCMC with t0 =  2279.592705140994
+   Done, acceptance rate 0 =  0.3755
+  Starting MCMC with n_links =  10000
+Theoretically  estimated error =  0.0009149663233392609
+starting MCMC with t0 =  2279.597218019343
+   Done, acceptance rate 0 =  0.3796
+t0_86th_percentile - t0_50th_percentile =  0.002006939351758774
+t0_unc_mcmc =  0.0018997909493391237
+Coeffs estimated with MCMC:  [1.63515101e+01 1.66374842e+04]
+Dispersion/t0_unc:  0.014506363112206117
+Dispersion:  2.7559057348396104e-05
+MCMC converged
+MCMC results for t0 =  2279.5924965355966 0.0018997909493391237
+
+Plotting the time series.
+
+Calculating transit timing deviations.
+  Uncertainty method  1 : number of valid transit times =  2
+Chisqr, Ndof, Ndata, Np =  5.72965835487998e-20 0 2 2
+ uncertainty estimated from LMFIT  [0.00152395 0.00178697]
+  Uncertainty method  0 : number of valid transit times =  2
+Chisqr, Ndof, Ndata, Np =  1.5380218516213658e-19 0 2 2
