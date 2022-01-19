@@ -23,6 +23,7 @@ The compilation of light curves, transit times, ephemerides, and timing residual
 are provided on this website, along with the [Python code](https://github.com/transit-timing/transit-timing) that generated them.
 ## Content
 The *Database* page provides a link to download the entire transit time database containing 8,663 timing measurements for 381 systems. You may also download a table with ephemerides from this page. 
+
 The *Ephemerides* page provides updated ephemerides for each of the 381 targets. 
 
 You may use the *Search* bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
