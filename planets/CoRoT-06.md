@@ -28,3 +28,7 @@ $$T_0 = 2457190.5078(13) $$ BJD TDB
 {% include data/data_CoRoT-06.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

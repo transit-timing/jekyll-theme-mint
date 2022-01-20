@@ -28,3 +28,7 @@ $$T_0 = 2456875.07242(93) $$ BJD TDB
 {% include data/data_KELT-10.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

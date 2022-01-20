@@ -28,3 +28,7 @@ $$T_0 = 2455409.80001(47) $$ BJD TDB
 {% include data/data_HAT-P-08.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

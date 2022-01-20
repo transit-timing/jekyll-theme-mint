@@ -21,3 +21,7 @@ $$T_0 = 2456514.0562(25) $$ BJD TDB
 </div>
 
 
+
+<script src="../js/tabs.js"></script>
+
+

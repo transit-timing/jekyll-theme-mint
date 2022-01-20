@@ -28,3 +28,7 @@ $$T_0 = 2455218.5258(45) $$ BJD TDB
 {% include data/data_XO-5.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

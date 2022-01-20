@@ -28,3 +28,7 @@ $$T_0 = 2457762.3441(26) $$ BJD TDB
 {% include data/data_Qatar-4.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

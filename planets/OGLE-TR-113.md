@@ -28,3 +28,7 @@ $$T_0 = 2454819.73853(11) $$ BJD TDB
 {% include data/data_OGLE-TR-113.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+

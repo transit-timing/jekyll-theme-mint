@@ -28,3 +28,7 @@ $$T_0 = 2456263.63228(66) $$ BJD TDB
 {% include data/data_WASP-060.md %}
 
 </div>
+
+<script src="../js/tabs.js"></script>
+
+
