@@ -1,0 +1,17 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 2780 | 8493.32 |              0.00037 | BJD_TDB       | >1  | 2020AJ....160..111R |
+| 2781 | 8493.32 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 2782 | 8497.72 |              0.00071 | BJD_TDB       | 1   | This work           |
+| 2783 | 8502.12 |              0.00054 | BJD_TDB       | 1   | This work           |
+| 2784 | 8506.52 |              0.00053 | BJD_TDB       | 1   | This work           |
+| 2785 | 8510.92 |              0.00068 | BJD_TDB       | 1   | This work           |
+| 2786 | 8515.33 |              0.00082 | BJD_TDB       | 1   | This work           |
+| 2787 | 9206.29 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 2788 | 9210.69 |              0.00049 | BJD_TDB       | 1   | This work           |
+| 2789 | 9219.49 |              0.00055 | BJD_TDB       | 1   | This work           |
+| 2790 | 9223.89 |              0.00087 | BJD_TDB       | 1   | This work           |
+| 2791 | 9232.7  |              0.00052 | BJD_TDB       | 1   | This work           |
+| 2792 | 9237.1  |              0.0006  | BJD_TDB       | 1   | This work           |
+| 2793 | 9245.9  |              0.0006  | BJD_TDB       | 1   | This work           |
+| 2794 | 9250.3  |              0.00058 | BJD_TDB       | 1   | This work           |

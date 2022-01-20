@@ -1,0 +1,20 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 1548 | 6408.77 |              0.00021 | BJD_TDB       | >1  | 2015A&A...580A..63M |
+| 1549 | 8326.13 |              0.0019  | BJD_TDB       | 1   | This work           |
+| 1550 | 8328.89 |              0.0019  | BJD_TDB       | 1   | This work           |
+| 1551 | 8331.66 |              0.0021  | BJD_TDB       | 1   | This work           |
+| 1552 | 8334.43 |              0.002   | BJD_TDB       | 1   | This work           |
+| 1553 | 8337.19 |              0.0017  | BJD_TDB       | 1   | This work           |
+| 1554 | 8339.96 |              0.0028  | BJD_TDB       | 1   | This work           |
+| 1555 | 8342.73 |              0.0019  | BJD_TDB       | 1   | This work           |
+| 1556 | 8345.49 |              0.0023  | BJD_TDB       | 1   | This work           |
+| 1557 | 8351.03 |              0.0018  | BJD_TDB       | 1   | This work           |
+| 1558 | 9062.09 |              0.0019  | BJD_TDB       | 1   | This work           |
+| 1559 | 9064.85 |              0.0021  | BJD_TDB       | 1   | This work           |
+| 1560 | 9067.62 |              0.002   | BJD_TDB       | 1   | This work           |
+| 1561 | 9070.39 |              0.0024  | BJD_TDB       | 1   | This work           |
+| 1562 | 9075.92 |              0.0016  | BJD_TDB       | 1   | This work           |
+| 1563 | 9078.69 |              0.002   | BJD_TDB       | 1   | This work           |
+| 1564 | 9081.45 |              0.0016  | BJD_TDB       | 1   | This work           |
+| 1565 | 9084.22 |              0.002   | BJD_TDB       | 1   | This work           |

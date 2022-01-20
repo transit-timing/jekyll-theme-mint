@@ -1,0 +1,16 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 1942 | 7376.69 |               0.0006 | BJD_TDB       | >1  | 2018AJ....155..112B |
+| 1943 | 8358.36 |               0.0016 | BJD_TDB       | 1   | This work           |
+| 1944 | 8363.1  |               0.0018 | BJD_TDB       | 1   | This work           |
+| 1945 | 8372.58 |               0.0017 | BJD_TDB       | 1   | This work           |
+| 1946 | 8377.33 |               0.0014 | BJD_TDB       | 1   | This work           |
+| 1947 | 9064.97 |               0.0022 | BJD_TDB       | 1   | This work           |
+| 1948 | 9069.71 |               0.0034 | BJD_TDB       | 1   | This work           |
+| 1949 | 9079.2  |               0.0021 | BJD_TDB       | 1   | This work           |
+| 1950 | 9083.94 |               0.0028 | BJD_TDB       | 1   | This work           |
+| 1951 | 9088.68 |               0.0024 | BJD_TDB       | 1   | This work           |
+| 1952 | 9093.43 |               0.0022 | BJD_TDB       | 1   | This work           |
+| 1953 | 9098.17 |               0.0024 | BJD_TDB       | 1   | This work           |
+| 1954 | 9102.91 |               0.0024 | BJD_TDB       | 1   | This work           |
+| 1955 | 9107.65 |               0.0023 | BJD_TDB       | 1   | This work           |

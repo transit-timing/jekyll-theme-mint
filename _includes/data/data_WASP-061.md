@@ -1,0 +1,15 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 6072 | 5859.53 |              0.00023 | BJD_TDB       | >1  | 2012MNRAS.426..739H |
+| 6073 | 8439.12 |              0.001   | BJD_TDB       | 1   | This work           |
+| 6074 | 8442.98 |              0.00097 | BJD_TDB       | 1   | This work           |
+| 6075 | 8446.84 |              0.0012  | BJD_TDB       | 1   | This work           |
+| 6076 | 8454.55 |              0.0012  | BJD_TDB       | 1   | This work           |
+| 6077 | 8458.4  |              0.00097 | BJD_TDB       | 1   | This work           |
+| 6078 | 8462.26 |              0.00099 | BJD_TDB       | 1   | This work           |
+| 6079 | 9175.6  |              0.001   | BJD_TDB       | 1   | This work           |
+| 6080 | 9179.46 |              0.001   | BJD_TDB       | 1   | This work           |
+| 6081 | 9183.31 |              0.00099 | BJD_TDB       | 1   | This work           |
+| 6082 | 9191.02 |              0.00096 | BJD_TDB       | 1   | This work           |
+| 6083 | 9194.88 |              0.0011  | BJD_TDB       | 1   | This work           |
+| 6084 | 9198.73 |              0.00096 | BJD_TDB       | 1   | This work           |

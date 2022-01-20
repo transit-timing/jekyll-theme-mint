@@ -1,0 +1,15 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 7944 | 6844.17 |              0.00026 | BJD_TDB       | >1  | 2019MNRAS.482.1379H |
+| 7945 | 9037.77 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 7946 | 9039.54 |              0.00065 | BJD_TDB       | 1   | This work           |
+| 7947 | 9041.31 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 7948 | 9043.08 |              0.00067 | BJD_TDB       | 1   | This work           |
+| 7949 | 9044.85 |              0.00053 | BJD_TDB       | 1   | This work           |
+| 7950 | 9046.62 |              0.00069 | BJD_TDB       | 1   | This work           |
+| 7951 | 9050.16 |              0.00052 | BJD_TDB       | 1   | This work           |
+| 7952 | 9051.93 |              0.00061 | BJD_TDB       | 1   | This work           |
+| 7953 | 9053.7  |              0.00067 | BJD_TDB       | 1   | This work           |
+| 7954 | 9055.46 |              0.00053 | BJD_TDB       | 1   | This work           |
+| 7955 | 9057.23 |              0.00054 | BJD_TDB       | 1   | This work           |
+| 7956 | 9059    |              0.00046 | BJD_TDB       | 1   | This work           |

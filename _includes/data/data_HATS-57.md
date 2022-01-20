@@ -1,0 +1,26 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 2052 | 7778.5  |              0.00025 | BJD_TDB       | >1  | 2019AJ....158...63E |
+| 2053 | 8415.51 |              0.00086 | BJD_TDB       | 1   | This work           |
+| 2054 | 8427.27 |              0.00059 | BJD_TDB       | 1   | This work           |
+| 2055 | 8429.62 |              0.00067 | BJD_TDB       | 1   | This work           |
+| 2056 | 8431.97 |              0.00084 | BJD_TDB       | 1   | This work           |
+| 2057 | 8434.32 |              0.00059 | BJD_TDB       | 1   | This work           |
+| 2058 | 8441.37 |              0.00067 | BJD_TDB       | 1   | This work           |
+| 2059 | 8443.72 |              0.00072 | BJD_TDB       | 1   | This work           |
+| 2060 | 8446.07 |              0.0004  | BJD_TDB       | 1   | This work           |
+| 2061 | 8448.42 |              0.001   | BJD_TDB       | 1   | This work           |
+| 2062 | 8453.12 |              0.00089 | BJD_TDB       | 1   | This work           |
+| 2063 | 8455.47 |              0.00084 | BJD_TDB       | 1   | This work           |
+| 2064 | 8457.82 |              0.00084 | BJD_TDB       | 1   | This work           |
+| 2065 | 8460.17 |              0.00083 | BJD_TDB       | 1   | This work           |
+| 2066 | 8462.53 |              0.00065 | BJD_TDB       | 1   | This work           |
+| 2067 | 9146.55 |              0.00056 | BJD_TDB       | 1   | This work           |
+| 2068 | 9148.91 |              0.00059 | BJD_TDB       | 1   | This work           |
+| 2069 | 9151.26 |              0.00058 | BJD_TDB       | 1   | This work           |
+| 2070 | 9153.61 |              0.00051 | BJD_TDB       | 1   | This work           |
+| 2071 | 9155.96 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 2072 | 9160.66 |              0.00052 | BJD_TDB       | 1   | This work           |
+| 2073 | 9163.01 |              0.00058 | BJD_TDB       | 1   | This work           |
+| 2074 | 9165.36 |              0.00072 | BJD_TDB       | 1   | This work           |
+| 2075 | 9167.71 |              0.00058 | BJD_TDB       | 1   | This work           |

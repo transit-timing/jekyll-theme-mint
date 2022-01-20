@@ -1,0 +1,14 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 7827 | 7326.62 |              0.00032 | BJD           | >1  | 2017A&A...599A...3L |
+| 7828 | 8413.31 |              0.00095 | BJD_TDB       | 1   | This work           |
+| 7829 | 8416.95 |              0.0013  | BJD_TDB       | 1   | This work           |
+| 7830 | 8427.85 |              0.001   | BJD_TDB       | 1   | This work           |
+| 7831 | 8431.49 |              0.0011  | BJD_TDB       | 1   | This work           |
+| 7832 | 8435.12 |              0.00093 | BJD_TDB       | 1   | This work           |
+| 7833 | 9147.47 |              0.0009  | BJD_TDB       | 1   | This work           |
+| 7834 | 9151.11 |              0.00085 | BJD_TDB       | 1   | This work           |
+| 7835 | 9154.74 |              0.00095 | BJD_TDB       | 1   | This work           |
+| 7836 | 9162.01 |              0.00083 | BJD_TDB       | 1   | This work           |
+| 7837 | 9165.65 |              0.0008  | BJD_TDB       | 1   | This work           |
+| 7838 | 9169.28 |              0.00084 | BJD_TDB       | 1   | This work           |

@@ -1,0 +1,75 @@
+|      |   T_mid |   Uncertainty (days) | Time System   |   # | Reference           |
+|-----:|--------:|---------------------:|:--------------|----:|:--------------------|
+| 2681 | 8144.9  |              0.00044 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2682 | 8144.9  |              0.00046 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2683 | 8153.92 |              0.00095 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2684 | 8153.92 |              0.00059 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2685 | 8167.45 |              0.0011  | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2686 | 8187.75 |              0.00064 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2687 | 8196.77 |              0.0011  | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2688 | 8196.77 |              0.00062 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2689 | 8196.77 |              0.0012  | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2690 | 8273.45 |              0.00098 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2691 | 8302.77 |              0.00081 | BJD_TDB       |   1 | 2019AJ....158...78J |
+| 2692 | 8683.91 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2693 | 8686.17 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2694 | 8688.42 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2695 | 8690.68 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2696 | 8692.93 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2697 | 8699.7  |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2698 | 8701.95 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2699 | 8704.21 |              0.00028 | BJD_TDB       |   1 | This work           |
+| 2700 | 8706.46 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2701 | 8713.23 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2702 | 8715.49 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2703 | 8717.74 |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2704 | 8726.76 |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2705 | 8729.02 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2706 | 8731.27 |              0.00023 | BJD_TDB       |   1 | This work           |
+| 2707 | 8733.53 |              0.00024 | BJD_TDB       |   1 | This work           |
+| 2708 | 8740.29 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2709 | 8742.55 |              0.00023 | BJD_TDB       |   1 | This work           |
+| 2710 | 8744.8  |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2711 | 8747.06 |              0.0018  | BJD_TDB       |   1 | This work           |
+| 2712 | 8753.83 |              0.00043 | BJD_TDB       |   1 | This work           |
+| 2713 | 8756.08 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2714 | 8758.34 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2715 | 8760.59 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2716 | 8765.1  |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2717 | 8767.36 |              0.0003  | BJD_TDB       |   1 | This work           |
+| 2718 | 8769.61 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2719 | 8771.87 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2720 | 8778.63 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2721 | 8780.89 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2722 | 8783.14 |              0.00016 | BJD_TDB       |   1 | This work           |
+| 2723 | 8785.4  |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2724 | 8871.1  |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2725 | 8873.36 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2726 | 8875.61 |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2727 | 8877.87 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2728 | 8880.12 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2729 | 8882.38 |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2730 | 8886.89 |              0.00022 | BJD_TDB       |   1 | This work           |
+| 2731 | 8889.14 |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2732 | 8891.4  |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2733 | 8893.65 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2734 | 8895.91 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2735 | 8931.99 |              0.00021 | BJD_TDB       |   1 | This work           |
+| 2736 | 8936.5  |              0.00019 | BJD_TDB       |   1 | This work           |
+| 2737 | 8938.76 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2738 | 8945.52 |              0.00016 | BJD_TDB       |   1 | This work           |
+| 2739 | 8947.78 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2740 | 8950.04 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2741 | 8952.29 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2742 | 8954.55 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2743 | 9421.39 |              0.00023 | BJD_TDB       |   1 | This work           |
+| 2744 | 9423.65 |              0.0002  | BJD_TDB       |   1 | This work           |
+| 2745 | 9425.9  |              0.00027 | BJD_TDB       |   1 | This work           |
+| 2746 | 9428.16 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2747 | 9430.41 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2748 | 9434.92 |              0.00016 | BJD_TDB       |   1 | This work           |
+| 2749 | 9437.18 |              0.00018 | BJD_TDB       |   1 | This work           |
+| 2750 | 9439.43 |              0.00016 | BJD_TDB       |   1 | This work           |
+| 2751 | 9441.69 |              0.00017 | BJD_TDB       |   1 | This work           |
+| 2752 | 9443.94 |              0.00023 | BJD_TDB       |   1 | This work           |
+| 2753 | 9446.2  |              0.00017 | BJD_TDB       |   1 | This work           |

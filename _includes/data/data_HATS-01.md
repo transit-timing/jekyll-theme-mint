@@ -1,0 +1,15 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 1423 | 5241.29 |              0.00071 | BJD_TDB       | >1  | 2013AJ....145....5P |
+| 1424 | 8574.01 |              0.00054 | BJD_TDB       | 1   | This work           |
+| 1425 | 8577.46 |              0.0006  | BJD_TDB       | 1   | This work           |
+| 1426 | 8580.9  |              0.00055 | BJD_TDB       | 1   | This work           |
+| 1427 | 8587.8  |              0.00054 | BJD_TDB       | 1   | This work           |
+| 1428 | 8591.24 |              0.00055 | BJD_TDB       | 1   | This work           |
+| 1429 | 8594.69 |              0.00059 | BJD_TDB       | 1   | This work           |
+| 1430 | 9283.98 |              0.00054 | BJD_TDB       | 1   | This work           |
+| 1431 | 9287.43 |              0.00055 | BJD_TDB       | 1   | This work           |
+| 1432 | 9290.87 |              0.00056 | BJD_TDB       | 1   | This work           |
+| 1433 | 9297.77 |              0.00059 | BJD_TDB       | 1   | This work           |
+| 1434 | 9301.21 |              0.00057 | BJD_TDB       | 1   | This work           |
+| 1435 | 9304.66 |              0.00057 | BJD_TDB       | 1   | This work           |

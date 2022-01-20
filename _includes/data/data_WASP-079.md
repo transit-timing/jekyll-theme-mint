@@ -1,0 +1,27 @@
+|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
+|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
+| 6542 | 5545.24 |              0.0012  | BJD_TDB       | >1  | 2012A&A...547A..61S |
+| 6543 | 8412.89 |              0.00029 | BJD_TDB       | 1   | This work           |
+| 6544 | 8416.55 |              0.00046 | BJD_TDB       | 1   | This work           |
+| 6545 | 8427.54 |              0.00036 | BJD_TDB       | 1   | This work           |
+| 6546 | 8431.2  |              0.0037  | BJD_TDB       | 1   | This work           |
+| 6547 | 8434.87 |              0.00032 | BJD_TDB       | 1   | This work           |
+| 6548 | 8438.53 |              0.00031 | BJD_TDB       | 1   | This work           |
+| 6549 | 8442.19 |              0.00029 | BJD_TDB       | 1   | This work           |
+| 6550 | 8445.85 |              0.00032 | BJD_TDB       | 1   | This work           |
+| 6551 | 8449.52 |              0.00031 | BJD_TDB       | 1   | This work           |
+| 6552 | 8453.18 |              0.00036 | BJD_TDB       | 1   | This work           |
+| 6553 | 8456.84 |              0.00035 | BJD_TDB       | 1   | This work           |
+| 6554 | 8460.5  |              0.00029 | BJD_TDB       | 1   | This work           |
+| 6555 | 9145.37 |              0.00035 | BJD_TDB       | 1   | This work           |
+| 6556 | 9149.03 |              0.00031 | BJD_TDB       | 1   | This work           |
+| 6557 | 9152.7  |              0.00035 | BJD_TDB       | 1   | This work           |
+| 6558 | 9160.02 |              0.00029 | BJD_TDB       | 1   | This work           |
+| 6559 | 9163.68 |              0.0004  | BJD_TDB       | 1   | This work           |
+| 6560 | 9167.34 |              0.00032 | BJD_TDB       | 1   | This work           |
+| 6561 | 9174.67 |              0.00038 | BJD_TDB       | 1   | This work           |
+| 6562 | 9178.33 |              0.00042 | BJD_TDB       | 1   | This work           |
+| 6563 | 9181.99 |              0.0003  | BJD_TDB       | 1   | This work           |
+| 6564 | 9189.32 |              0.0003  | BJD_TDB       | 1   | This work           |
+| 6565 | 9192.98 |              0.00033 | BJD_TDB       | 1   | This work           |
+| 6566 | 9196.64 |              0.00033 | BJD_TDB       | 1   | This work           |
