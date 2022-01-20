@@ -3,15 +3,15 @@
 
 <a name = "sector37"></a>
 Sector 37
-![alt text](/images/WASP-129_Sector_37/WASP-129_Sector_37_a_TimeSeries.png)
-![alt text](/images/WASP-129_Sector_37/WASP-129_Sector_37_b_FoldedLightCurve.png)
-![alt text](/images/WASP-129_Sector_37/WASP-129_Sector_37_b_IndividualTransitsWithFit.png)
-![alt text](/images/WASP-129_Sector_37/WASP-129_Sector_37_c_TimingResiduals.png)
+![alt text](/tt/WASP-129_Sector_37/WASP-129_Sector_37_a_TimeSeries.png)
+![alt text](/tt/WASP-129_Sector_37/WASP-129_Sector_37_b_FoldedLightCurve.png)
+![alt text](/tt/WASP-129_Sector_37/WASP-129_Sector_37_b_IndividualTransitsWithFit.png)
+![alt text](/tt/WASP-129_Sector_37/WASP-129_Sector_37_c_TimingResiduals.png)
 
 <a name = "sector10"></a>
 Sector 10
-![alt text](/images/WASP-129_Sector_10/WASP-129_Sector_10_a_TimeSeries.png)
-![alt text](/images/WASP-129_Sector_10/WASP-129_Sector_10_b_FoldedLightCurve.png)
-![alt text](/images/WASP-129_Sector_10/WASP-129_Sector_10_b_IndividualTransitsWithFit.png)
-![alt text](/images/WASP-129_Sector_10/WASP-129_Sector_10_c_TimingResiduals.png)
+![alt text](/tt/WASP-129_Sector_10/WASP-129_Sector_10_a_TimeSeries.png)
+![alt text](/tt/WASP-129_Sector_10/WASP-129_Sector_10_b_FoldedLightCurve.png)
+![alt text](/tt/WASP-129_Sector_10/WASP-129_Sector_10_b_IndividualTransitsWithFit.png)
+![alt text](/tt/WASP-129_Sector_10/WASP-129_Sector_10_c_TimingResiduals.png)
 

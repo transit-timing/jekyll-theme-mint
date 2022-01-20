@@ -2,8 +2,8 @@
 
 <a name = "sector19"></a>
 Sector 19
-![alt text](/images/HAT-P-58_Sector_19/HAT-P-58_Sector_19_a_TimeSeries.png)
-![alt text](/images/HAT-P-58_Sector_19/HAT-P-58_Sector_19_b_FoldedLightCurve.png)
-![alt text](/images/HAT-P-58_Sector_19/HAT-P-58_Sector_19_b_IndividualTransitsWithFit.png)
-![alt text](/images/HAT-P-58_Sector_19/HAT-P-58_Sector_19_c_TimingResiduals.png)
+![alt text](/tt/HAT-P-58_Sector_19/HAT-P-58_Sector_19_a_TimeSeries.png)
+![alt text](/tt/HAT-P-58_Sector_19/HAT-P-58_Sector_19_b_FoldedLightCurve.png)
+![alt text](/tt/HAT-P-58_Sector_19/HAT-P-58_Sector_19_b_IndividualTransitsWithFit.png)
+![alt text](/tt/HAT-P-58_Sector_19/HAT-P-58_Sector_19_c_TimingResiduals.png)
 

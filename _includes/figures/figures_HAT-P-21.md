@@ -2,8 +2,8 @@
 
 <a name = "sector22"></a>
 Sector 22
-![alt text](/images/HAT-P-21_Sector_22/HAT-P-21_Sector_22_a_TimeSeries.png)
-![alt text](/images/HAT-P-21_Sector_22/HAT-P-21_Sector_22_b_FoldedLightCurve.png)
-![alt text](/images/HAT-P-21_Sector_22/HAT-P-21_Sector_22_b_IndividualTransitsWithFit.png)
-![alt text](/images/HAT-P-21_Sector_22/HAT-P-21_Sector_22_c_TimingResiduals.png)
+![alt text](/tt/HAT-P-21_Sector_22/HAT-P-21_Sector_22_a_TimeSeries.png)
+![alt text](/tt/HAT-P-21_Sector_22/HAT-P-21_Sector_22_b_FoldedLightCurve.png)
+![alt text](/tt/HAT-P-21_Sector_22/HAT-P-21_Sector_22_b_IndividualTransitsWithFit.png)
+![alt text](/tt/HAT-P-21_Sector_22/HAT-P-21_Sector_22_c_TimingResiduals.png)
 

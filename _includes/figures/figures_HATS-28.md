@@ -2,8 +2,8 @@
 
 <a name = "sector13"></a>
 Sector 13
-![alt text](/images/HATS-28_Sector_13/HATS-28_Sector_13_a_TimeSeries.png)
-![alt text](/images/HATS-28_Sector_13/HATS-28_Sector_13_b_FoldedLightCurve.png)
-![alt text](/images/HATS-28_Sector_13/HATS-28_Sector_13_b_IndividualTransitsWithFit.png)
-![alt text](/images/HATS-28_Sector_13/HATS-28_Sector_13_c_TimingResiduals.png)
+![alt text](/tt/HATS-28_Sector_13/HATS-28_Sector_13_a_TimeSeries.png)
+![alt text](/tt/HATS-28_Sector_13/HATS-28_Sector_13_b_FoldedLightCurve.png)
+![alt text](/tt/HATS-28_Sector_13/HATS-28_Sector_13_b_IndividualTransitsWithFit.png)
+![alt text](/tt/HATS-28_Sector_13/HATS-28_Sector_13_c_TimingResiduals.png)
 

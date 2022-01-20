@@ -2,8 +2,8 @@
 
 <a name = "sector27"></a>
 Sector 27
-![alt text](/images/WASP-007_Sector_27/WASP-007_Sector_27_a_TimeSeries.png)
-![alt text](/images/WASP-007_Sector_27/WASP-007_Sector_27_b_FoldedLightCurve.png)
-![alt text](/images/WASP-007_Sector_27/WASP-007_Sector_27_b_IndividualTransitsWithFit.png)
-![alt text](/images/WASP-007_Sector_27/WASP-007_Sector_27_c_TimingResiduals.png)
+![alt text](/tt/WASP-007_Sector_27/WASP-007_Sector_27_a_TimeSeries.png)
+![alt text](/tt/WASP-007_Sector_27/WASP-007_Sector_27_b_FoldedLightCurve.png)
+![alt text](/tt/WASP-007_Sector_27/WASP-007_Sector_27_b_IndividualTransitsWithFit.png)
+![alt text](/tt/WASP-007_Sector_27/WASP-007_Sector_27_c_TimingResiduals.png)
 
