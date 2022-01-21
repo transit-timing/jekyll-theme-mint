@@ -32,14 +32,13 @@ You may use the **[Search](https://transit-timing.github.io/search)** bar to loo
 
 
 ## Acknowledgements
-We thank Betsy Pu for her help with the website. 
-We are grateful to Filip Walter, the current administrator of the Exoplanet Transit Database, for compiling and providing the database in a convenient format, although we did not end up including those
+We are grateful to Filip Walter, the current administrator of the Exoplanet Transit Database, for compiling and providing the database in a convenient format, although we ultimately did not include those
 data in our analyses. We also thank
-Sarah Millholland, Vadim Krushinsky, and Luke Bouma for helpful comments on the draft of this paper.
+Sarah Millholland, Vadim Krushinsky, and Luke Bouma for helpful comments on the draft of this paper. Additionally, we would like to thank Betsy Pu for her help with the development of our project's website.
 This work was supported by the Heising-Simons Foundation
 and the NASA TESS mission.
 This work relied on 
 the NASA Astrophysics Data System and
-the \textbf{arXiv}.
+the arXiv.
 We also acknowledge the use of
 the Extrasolar Planets Encyclopedia at exoplanet.eu; the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program. The authors are pleased to acknowledge that the work reported in this paper was substantially performed using the Princeton Research Computing resources at Princeton University which is a consortium of groups led by the Princeton Institute for Computational Science and Engineering (PICSciE) and Office of Information Technology's Research Computing.
