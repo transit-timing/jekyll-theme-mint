@@ -26,7 +26,7 @@ The *Database* page provides a link to download the entire transit time database
 
 The *Ephemerides* page provides updated ephemerides for each of the 381 targets. 
 
-You may use the *Search* bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
+You may use the *[Search](https://transit-timing.github.io/search)* bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
 
 
 ## Acknowledgements
