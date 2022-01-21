@@ -6,27 +6,29 @@ permalink: /about/
 
 This website provides results from the journal article (LINK). 
 
-We provide updated transit ephemerides for 277 hot Jupiters, based on data from 
-the NASA Transiting Exoplanet Survey Satellite (TESS) and  previously reported
+
+We provide updated transit ephemerides for 277 planets --- mainly hot Jupiters --- based on data from 
+the NASA Transiting Exoplanet Survey Satellite (TESS) and previously reported
 transit times which were scraped from the literature in a semi-automated fashion.
 For convenience, we also tabulate previously reported transit
-times and ephemerides for another 104 hot Jupiters which have not yet been
-observed by TESS.
+times and ephemerides for another 104 planets which have not yet been
+observed by TESS. 
 The new ephemerides are useful for
 scheduling follow-up observations and
-searching for long-term period changes. In total, our database contains 8,693 transit timing measurements for 381 systems.
+searching for long-term period changes. In total, our database contains 8{,}663 transit timing measurements for 382 systems.
 WASP-12 remains the only system for which a period change
 is securely detected.
 We remark on other cases of interest, such as a few systems with suggestive (but not
 yet convincing) evidence for period changes.
 The compilation of light curves, transit times, ephemerides, and timing residuals
-are provided on this website, along with the [Python code](https://github.com/transit-timing/transit-timing) that generated them.
+are made available online, along with the [Python code](https://github.com/transit-timing/transit-timing) that generated them.
+ 
 ## Content
-The *Database* page provides a link to download the entire transit time database containing 8,663 timing measurements for 381 systems. You may also download a table with ephemerides from this page. 
+The **[Database](https://transit-timing.github.io/database/)** page provides a link to download the entire transit time database containing 8,667 timing measurements for 382 systems. You may also download a table with ephemerides from this page. 
 
-The *Ephemerides* page provides updated ephemerides for each of the 381 targets. 
+The **[Ephemerides](https://transit-timing.github.io/ephemerides/)** page provides updated ephemerides for each of the 381 targets. 
 
-You may use the *[Search](https://transit-timing.github.io/search)* bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
+You may use the **[Search](https://transit-timing.github.io/search)** bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
 
 
 ## Acknowledgements
