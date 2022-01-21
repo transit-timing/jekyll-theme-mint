@@ -12,6 +12,6 @@
 ## Sector 3
 ![alt text](/tt/NGTS-11c_Sector_3/NGTS-11_Sector_3_a_TimeSeries.png)
 ![alt text](/tt/NGTS-11c_Sector_3/NGTS-11_Sector_3_b_FoldedLightCurve.png)
- 
+![alt text](/tt/NGTS-11c_Sector_3/NGTS-11_Sector_3_c_TimingResiduals.png)
 
 
