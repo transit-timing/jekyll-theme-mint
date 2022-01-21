@@ -14,7 +14,7 @@ times and ephemerides for another 104 planets which have not yet been
 observed by TESS. 
 The new ephemerides are useful for
 scheduling follow-up observations and
-searching for long-term period changes. In total, our database contains 8{,}663 transit timing measurements for 382 systems.
+searching for long-term period changes. In total, our database contains 8,667 transit timing measurements for 382 systems.
 WASP-12 remains the only system for which a period change
 is securely detected.
 We remark on other cases of interest, such as a few systems with suggestive (but not
