@@ -25,7 +25,7 @@ are made available online, along with the [Python code](https://github.com/trans
 ## Content
 The **[Database](https://transit-timing.github.io/database/)** page provides a link to download the entire transit time database containing 8,667 timing measurements for 382 systems. You may also download a table with ephemerides from this page. 
 
-The **[Ephemerides](https://transit-timing.github.io/ephemerides/)** page provides updated ephemerides for each of the 381 targets. 
+The **[Ephemerides](https://transit-timing.github.io/ephemerides/)** page provides updated ephemerides for each of the 382 targets. 
 
 You may use the **[Search](https://transit-timing.github.io/search)** bar to look up data for a specific planet. The resulting page will contain a given planet's ephemeris and O-C diagram, individual transit times as well as figures of *TESS* light curves from which transit times were derived in this work (if available). 
 
