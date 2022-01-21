@@ -1,32 +1,32 @@
-|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
-|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
-| 3472 | 8227.76 |              0.00027 | BJD_TDB       | >1  | 2019AJ....157..224A |
-| 3473 | 8683.83 |              0.00067 | BJD_TDB       | 1   | This work           |
-| 3474 | 8685.37 |              0.001   | BJD_TDB       | 1   | This work           |
-| 3475 | 8686.91 |              0.00089 | BJD_TDB       | 1   | This work           |
-| 3476 | 8688.45 |              0.0016  | BJD_TDB       | 1   | This work           |
-| 3477 | 8689.99 |              0.00059 | BJD_TDB       | 1   | This work           |
-| 3478 | 8691.53 |              0.0013  | BJD_TDB       | 1   | This work           |
-| 3479 | 8693.07 |              0.0011  | BJD_TDB       | 1   | This work           |
-| 3480 | 8697.69 |              0.00095 | BJD_TDB       | 1   | This work           |
-| 3481 | 8699.23 |              0.00082 | BJD_TDB       | 1   | This work           |
-| 3482 | 8700.77 |              0.001   | BJD_TDB       | 1   | This work           |
-| 3483 | 8702.32 |              0.00061 | BJD_TDB       | 1   | This work           |
-| 3484 | 8705.4  |              0.001   | BJD_TDB       | 1   | This work           |
-| 3485 | 8706.94 |              0.0013  | BJD_TDB       | 1   | This work           |
-| 3486 | 9420.32 |              0.001   | BJD_TDB       | 1   | This work           |
-| 3487 | 9421.86 |              0.00092 | BJD_TDB       | 1   | This work           |
-| 3488 | 9423.4  |              0.00076 | BJD_TDB       | 1   | This work           |
-| 3489 | 9424.94 |              0.00088 | BJD_TDB       | 1   | This work           |
-| 3490 | 9426.48 |              0.00087 | BJD_TDB       | 1   | This work           |
-| 3491 | 9428.02 |              0.00092 | BJD_TDB       | 1   | This work           |
-| 3492 | 9429.56 |              0.001   | BJD_TDB       | 1   | This work           |
-| 3493 | 9431.1  |              0.00074 | BJD_TDB       | 1   | This work           |
-| 3494 | 9434.18 |              0.00098 | BJD_TDB       | 1   | This work           |
-| 3495 | 9435.72 |              0.00094 | BJD_TDB       | 1   | This work           |
-| 3496 | 9437.26 |              0.0008  | BJD_TDB       | 1   | This work           |
-| 3497 | 9438.81 |              0.00084 | BJD_TDB       | 1   | This work           |
-| 3498 | 9440.35 |              0.00084 | BJD_TDB       | 1   | This work           |
-| 3499 | 9441.89 |              0.0011  | BJD_TDB       | 1   | This work           |
-| 3500 | 9443.43 |              0.001   | BJD_TDB       | 1   | This work           |
-| 3501 | 9444.97 |              0.00096 | BJD_TDB       | 1   | This work           |
+|T_mid|Uncertainty (days)           |Time System|#                                            |Reference                           |
+|-----|-----------------------------|-----------|---------------------------------------------|------------------------------------|
+|2458227.75643|0.00027                      |BJD_TDB    |>1                                           |2019AJ....157..224A                 |
+|2458683.82644|0.00067                      |BJD_TDB    |1                                            |This work                           |
+|2458685.3656|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2458686.90564|0.00089                      |BJD_TDB    |1                                            |This work                           |
+|2458688.4486|0.0016                       |BJD_TDB    |1                                            |This work                           |
+|2458689.98992|0.00059                      |BJD_TDB    |1                                            |This work                           |
+|2458691.5298|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458693.0716|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458697.69163|0.00095                      |BJD_TDB    |1                                            |This work                           |
+|2458699.23472|0.00082                      |BJD_TDB    |1                                            |This work                           |
+|2458700.7733|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2458702.31513|0.00061                      |BJD_TDB    |1                                            |This work                           |
+|2458705.3975|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2458706.9395|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2459420.3167|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459421.85693|0.00092                      |BJD_TDB    |1                                            |This work                           |
+|2459423.39791|0.00076                      |BJD_TDB    |1                                            |This work                           |
+|2459424.93945|0.00088                      |BJD_TDB    |1                                            |This work                           |
+|2459426.48032|0.00087                      |BJD_TDB    |1                                            |This work                           |
+|2459428.01959|0.00092                      |BJD_TDB    |1                                            |This work                           |
+|2459429.5613|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459431.10177|0.00074                      |BJD_TDB    |1                                            |This work                           |
+|2459434.18424|0.00098                      |BJD_TDB    |1                                            |This work                           |
+|2459435.72476|0.00094                      |BJD_TDB    |1                                            |This work                           |
+|2459437.26469|0.0008                       |BJD_TDB    |1                                            |This work                           |
+|2459438.80518|0.00084                      |BJD_TDB    |1                                            |This work                           |
+|2459440.34683|0.00084                      |BJD_TDB    |1                                            |This work                           |
+|2459441.8874|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459443.4277|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459444.9701|0.00096                      |BJD_TDB    |1                                            |This work                           |

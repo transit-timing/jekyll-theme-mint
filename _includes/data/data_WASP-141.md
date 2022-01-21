@@ -1,19 +1,19 @@
-|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference             |
-|-----:|--------:|---------------------:|:--------------|:----|:----------------------|
-| 7885 | 7019.6  |               0.0003 | BJD_TDB       | >1  | 10.1093/mnras/stw3005 |
-| 7886 | 8439.87 |               0.0013 | BJD_TDB       | 1   | This work             |
-| 7887 | 8443.18 |               0.0013 | BJD_TDB       | 1   | This work             |
-| 7888 | 8446.49 |               0.0014 | BJD_TDB       | 1   | This work             |
-| 7889 | 8449.8  |               0.0015 | BJD_TDB       | 1   | This work             |
-| 7890 | 8453.11 |               0.0015 | BJD_TDB       | 1   | This work             |
-| 7891 | 8456.42 |               0.0019 | BJD_TDB       | 1   | This work             |
-| 7892 | 8459.74 |               0.0015 | BJD_TDB       | 1   | This work             |
-| 7893 | 8463.05 |               0.0012 | BJD_TDB       | 1   | This work             |
-| 7894 | 9174.84 |               0.0013 | BJD_TDB       | 1   | This work             |
-| 7895 | 9178.15 |               0.0014 | BJD_TDB       | 1   | This work             |
-| 7896 | 9181.46 |               0.0015 | BJD_TDB       | 1   | This work             |
-| 7897 | 9184.77 |               0.0012 | BJD_TDB       | 1   | This work             |
-| 7898 | 9188.08 |               0.0016 | BJD_TDB       | 1   | This work             |
-| 7899 | 9191.39 |               0.0013 | BJD_TDB       | 1   | This work             |
-| 7900 | 9194.7  |               0.0013 | BJD_TDB       | 1   | This work             |
-| 7901 | 9198.02 |               0.0014 | BJD_TDB       | 1   | This work             |
+|T_mid|Uncertainty (days)           |Time System|#                                            |Reference                           |
+|-----|-----------------------------|-----------|---------------------------------------------|------------------------------------|
+|2457019.59608|0.0003                       |BJD_TDB    |>1                                           |10.1093/mnras/stw3005               |
+|2458439.8707|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458443.1797|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458446.4942|0.0014                       |BJD_TDB    |1                                            |This work                           |
+|2458449.8045|0.0015                       |BJD_TDB    |1                                            |This work                           |
+|2458453.1145|0.0015                       |BJD_TDB    |1                                            |This work                           |
+|2458456.4235|0.0019                       |BJD_TDB    |1                                            |This work                           |
+|2458459.7395|0.0015                       |BJD_TDB    |1                                            |This work                           |
+|2458463.0454|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2459174.8413|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2459178.15|0.0014                       |BJD_TDB    |1                                            |This work                           |
+|2459181.4638|0.0015                       |BJD_TDB    |1                                            |This work                           |
+|2459184.7708|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2459188.0827|0.0016                       |BJD_TDB    |1                                            |This work                           |
+|2459191.3929|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2459194.7025|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2459198.0167|0.0014                       |BJD_TDB    |1                                            |This work                           |

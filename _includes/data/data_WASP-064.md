@@ -1,69 +1,69 @@
-|      |   T_mid |   Uncertainty (days) | Time System   |   # | Reference           |
-|-----:|--------:|---------------------:|:--------------|----:|:--------------------|
-| 6233 | 5582.6  |              0.00051 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6234 | 5615.64 |              0.00057 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6235 | 5656.55 |              0.00035 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6236 | 5854.78 |              0.00032 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6237 | 5854.78 |              0.00027 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6238 | 5865.79 |              0.00025 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6239 | 5887.82 |              0.00035 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6240 | 5895.69 |              0.00029 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6241 | 5906.7  |              0.00041 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6242 | 5917.71 |              0.00019 | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6243 | 5939.74 |              0.0003  | HJD_TDB       |   1 | 2013A&A...552A..82G |
-| 6244 | 7366.71 |              0.001   | BJD_TDB       |   1 | 2017PASP..129j5001K |
-| 6245 | 8469.59 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6246 | 8471.16 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6247 | 8472.74 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6248 | 8474.31 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6249 | 8475.88 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6250 | 8479.03 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6251 | 8480.6  |              0.0013  | BJD_TDB       |   1 | This work           |
-| 6252 | 8482.18 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6253 | 8483.75 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6254 | 8485.32 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6255 | 8486.9  |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6256 | 8488.47 |              0.0013  | BJD_TDB       |   1 | This work           |
-| 6257 | 8493.19 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6258 | 8494.76 |              0.0013  | BJD_TDB       |   1 | This work           |
-| 6259 | 8496.33 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6260 | 8497.91 |              0.0013  | BJD_TDB       |   1 | This work           |
-| 6261 | 8499.48 |              0.00093 | BJD_TDB       |   1 | This work           |
-| 6262 | 8501.05 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6263 | 8502.63 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6264 | 8505.78 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6265 | 8507.35 |              0.0013  | BJD_TDB       |   1 | This work           |
-| 6266 | 8508.92 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6267 | 8510.49 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6268 | 8512.07 |              0.0014  | BJD_TDB       |   1 | This work           |
-| 6269 | 8513.64 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6270 | 8515.21 |              0.00096 | BJD_TDB       |   1 | This work           |
-| 6271 | 9202.74 |              0.00085 | BJD_TDB       |   1 | This work           |
-| 6272 | 9204.32 |              0.00098 | BJD_TDB       |   1 | This work           |
-| 6273 | 9205.89 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6274 | 9207.46 |              0.00099 | BJD_TDB       |   1 | This work           |
-| 6275 | 9209.04 |              0.00098 | BJD_TDB       |   1 | This work           |
-| 6276 | 9210.61 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6277 | 9212.18 |              0.00089 | BJD_TDB       |   1 | This work           |
-| 6278 | 9216.9  |              0.00087 | BJD_TDB       |   1 | This work           |
-| 6279 | 9218.48 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6280 | 9220.05 |              0.00095 | BJD_TDB       |   1 | This work           |
-| 6281 | 9221.62 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6282 | 9223.19 |              0.00097 | BJD_TDB       |   1 | This work           |
-| 6283 | 9224.77 |              0.00094 | BJD_TDB       |   1 | This work           |
-| 6284 | 9226.34 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6285 | 9229.49 |              0.00099 | BJD_TDB       |   1 | This work           |
-| 6286 | 9231.06 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6287 | 9232.64 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6288 | 9234.21 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6289 | 9235.78 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6290 | 9237.35 |              0.00098 | BJD_TDB       |   1 | This work           |
-| 6291 | 9238.93 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6292 | 9240.5  |              0.001   | BJD_TDB       |   1 | This work           |
-| 6293 | 9243.65 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6294 | 9245.22 |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6295 | 9246.8  |              0.0012  | BJD_TDB       |   1 | This work           |
-| 6296 | 9248.37 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6297 | 9249.94 |              0.001   | BJD_TDB       |   1 | This work           |
-| 6298 | 9251.52 |              0.0011  | BJD_TDB       |   1 | This work           |
-| 6299 | 9253.09 |              0.0013  | BJD_TDB       |   1 | This work           |
+|T_mid|Uncertainty (days)           |Time System|#                                            |Reference                           |
+|-----|-----------------------------|-----------|---------------------------------------------|------------------------------------|
+|2455582.6007|0.00051                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455615.64057|0.00057                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455656.54655|0.00035                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455854.78091|0.00032                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455854.78224|0.00027                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455865.79456|0.00025                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455887.82045|0.00035                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455895.68667|0.00029                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455906.69953|0.00041                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455917.71279|0.00019                      |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2455939.73781|0.0003                       |HJD_TDB    |1                                            |2013A&A...552A..82G                 |
+|2457366.7123|0.001                        |BJD_TDB    |1                                            |2017PASP..129j5001K                 |
+|2458469.5902|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458471.1633|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458472.7363|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458474.3092|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458475.884|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458479.0289|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458480.6039|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458482.1756|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458483.7507|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458485.3245|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458486.8964|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458488.469|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458493.1886|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458494.7609|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458496.335|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458497.9079|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458499.48225|0.00093                      |BJD_TDB    |1                                            |This work                           |
+|2458501.0549|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458502.6295|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458505.7754|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458507.3471|0.0013                       |BJD_TDB    |1                                            |This work                           |
+|2458508.9228|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2458510.4946|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2458512.0679|0.0014                       |BJD_TDB    |1                                            |This work                           |
+|2458513.6423|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2458515.21364|0.00096                      |BJD_TDB    |1                                            |This work                           |
+|2459202.74365|0.00085                      |BJD_TDB    |1                                            |This work                           |
+|2459204.31612|0.00098                      |BJD_TDB    |1                                            |This work                           |
+|2459205.8896|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2459207.46151|0.00099                      |BJD_TDB    |1                                            |This work                           |
+|2459209.03506|0.00098                      |BJD_TDB    |1                                            |This work                           |
+|2459210.6087|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459212.18243|0.00089                      |BJD_TDB    |1                                            |This work                           |
+|2459216.9031|0.00087                      |BJD_TDB    |1                                            |This work                           |
+|2459218.4751|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459220.04888|0.00095                      |BJD_TDB    |1                                            |This work                           |
+|2459221.6231|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459223.19413|0.00097                      |BJD_TDB    |1                                            |This work                           |
+|2459224.76842|0.00094                      |BJD_TDB    |1                                            |This work                           |
+|2459226.3405|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459229.48999|0.00099                      |BJD_TDB    |1                                            |This work                           |
+|2459231.0636|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459232.6357|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459234.2099|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459235.7809|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459237.35416|0.00098                      |BJD_TDB    |1                                            |This work                           |
+|2459238.9279|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459240.5013|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459243.6482|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459245.2212|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2459246.7957|0.0012                       |BJD_TDB    |1                                            |This work                           |
+|2459248.3695|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459249.9425|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2459251.5155|0.0011                       |BJD_TDB    |1                                            |This work                           |
+|2459253.0868|0.0013                       |BJD_TDB    |1                                            |This work                           |

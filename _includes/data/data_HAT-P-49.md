@@ -1,19 +1,19 @@
-|      |   T_mid |   Uncertainty (days) | Time System   | #   | Reference           |
-|-----:|--------:|---------------------:|:--------------|:----|:--------------------|
-| 1188 | 6399.62 |              0.00063 | BJD_TDB       | >1  | 2014AJ....147...84B |
-| 1189 | 8684.76 |              0.00076 | BJD_TDB       | 1   | This work           |
-| 1190 | 8687.45 |              0.001   | BJD_TDB       | 1   | This work           |
-| 1191 | 8690.14 |              0.00092 | BJD_TDB       | 1   | This work           |
-| 1192 | 8695.52 |              0.00072 | BJD_TDB       | 1   | This work           |
-| 1193 | 8698.21 |              0.00085 | BJD_TDB       | 1   | This work           |
-| 1194 | 8700.9  |              0.00098 | BJD_TDB       | 1   | This work           |
-| 1195 | 8703.6  |              0.00086 | BJD_TDB       | 1   | This work           |
-| 1196 | 8708.98 |              0.00092 | BJD_TDB       | 1   | This work           |
-| 1197 | 9422.24 |              0.0008  | BJD_TDB       | 1   | This work           |
-| 1198 | 9424.93 |              0.00097 | BJD_TDB       | 1   | This work           |
-| 1199 | 9427.62 |              0.00061 | BJD_TDB       | 1   | This work           |
-| 1200 | 9430.32 |              0.00081 | BJD_TDB       | 1   | This work           |
-| 1201 | 9435.7  |              0.0006  | BJD_TDB       | 1   | This work           |
-| 1202 | 9438.39 |              0.00071 | BJD_TDB       | 1   | This work           |
-| 1203 | 9441.08 |              0.00069 | BJD_TDB       | 1   | This work           |
-| 1204 | 9443.77 |              0.00059 | BJD_TDB       | 1   | This work           |
+|T_mid|Uncertainty (days)           |Time System|#                                            |Reference                           |
+|-----|-----------------------------|-----------|---------------------------------------------|------------------------------------|
+|2456399.62484|0.00063                      |BJD_TDB    |>1                                           |2014AJ....147...84B                 |
+|2458684.75582|0.00076                      |BJD_TDB    |1                                            |This work                           |
+|2458687.4476|0.001                        |BJD_TDB    |1                                            |This work                           |
+|2458690.13911|0.00092                      |BJD_TDB    |1                                            |This work                           |
+|2458695.5205|0.00072                      |BJD_TDB    |1                                            |This work                           |
+|2458698.21141|0.00085                      |BJD_TDB    |1                                            |This work                           |
+|2458700.90448|0.00098                      |BJD_TDB    |1                                            |This work                           |
+|2458703.59676|0.00086                      |BJD_TDB    |1                                            |This work                           |
+|2458708.97992|0.00092                      |BJD_TDB    |1                                            |This work                           |
+|2459422.24208|0.0008                       |BJD_TDB    |1                                            |This work                           |
+|2459424.93273|0.00097                      |BJD_TDB    |1                                            |This work                           |
+|2459427.62491|0.00061                      |BJD_TDB    |1                                            |This work                           |
+|2459430.31549|0.00081                      |BJD_TDB    |1                                            |This work                           |
+|2459435.6986|0.0006                       |BJD_TDB    |1                                            |This work                           |
+|2459438.39131|0.00071                      |BJD_TDB    |1                                            |This work                           |
+|2459441.08219|0.00069                      |BJD_TDB    |1                                            |This work                           |
+|2459443.7748|0.00059                      |BJD_TDB    |1                                            |This work                           |
