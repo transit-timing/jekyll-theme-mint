@@ -20,7 +20,7 @@ is securely detected.
 We remark on other cases of interest, such as a few systems with suggestive (but not
 yet convincing) evidence for period changes.
 The compilation of light curves, transit times, ephemerides, and timing residuals
-are made available online, along with the [Python code](https://github.com/transit-timing/transit-timing) that generated them.
+are made available online, along with the [Python code](https://github.com/transit-timing/tt) that generated them.
  
 ## Content
 The **[Database](https://transit-timing.github.io/database/)** page provides a link to download the entire transit time database containing 8,667 timing measurements for 382 systems. You may also download a table with ephemerides from this page. 
