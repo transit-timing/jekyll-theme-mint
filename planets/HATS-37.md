@@ -4,7 +4,7 @@ style: planet
 ---
 <script src="../js/planets.js"></script>
 
-## HATS-37
+## HATS-37 A
 
 <!-- Tab links -->
 <div class="tab">

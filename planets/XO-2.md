@@ -4,7 +4,7 @@ style: planet
 ---
 <script src="../js/planets.js"></script>
 
-## XO-2
+## XO-2N
 
 <!-- Tab links -->
 <div class="tab">

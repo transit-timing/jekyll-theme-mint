@@ -4,7 +4,7 @@ style: planet
 ---
 <script src="../js/planets.js"></script>
 
-## TrES-2
+## TrES-2 A
 
 <!-- Tab links -->
 <div class="tab">

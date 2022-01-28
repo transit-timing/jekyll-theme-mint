@@ -4,7 +4,7 @@ style: planet
 ---
 <script src="../js/planets.js"></script>
 
-## NGTS-03
+## NGTS-03 A
 
 <!-- Tab links -->
 <div class="tab">

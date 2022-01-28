@@ -4,7 +4,7 @@ style: planet
 ---
 <script src="../js/planets.js"></script>
 
-## WASP-070
+## WASP-070 A
 
 <!-- Tab links -->
 <div class="tab">
