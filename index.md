@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-
+This website provides results from the article titled ["TESS Transit Timing of Hundreds of Hot Jupiters"](https://arxiv.org/abs/2202.03401).
 
 We provide a database of transit times and updated ephemerides for 382 planets based on data from the NASA Transiting Exoplanet Survey Satellite (TESS) and previously reported
 transit times which were scraped from the literature in a semi-automated fashion. In total, our database contains 8,667 transit timing measurements for 382 systems. About 240 planets in the catalog are hot Jupiters that have been observed by TESS. The new ephemerides are useful for scheduling follow-up observations and searching for long-term period changes.  WASP-12 remains the only system for which a period change
