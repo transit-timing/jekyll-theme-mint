@@ -16,8 +16,8 @@ style: planet
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
 <br/><br/>
-$$P = 4.008803(15) $$ day <br/>
-$$T_0 = 2456935.5789(47) $$ BJD TDB
+$$P = 4.00878403(49) $$ day <br/>
+$$T_0 = 2456935.57551(12) $$ BJD TDB
 <br/><br/>
 <br/><br/>
 ![alt text](/images/HAT-P-19_o_c.png)
