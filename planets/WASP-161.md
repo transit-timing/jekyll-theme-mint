@@ -16,8 +16,8 @@ style: planet
 <!-- Tab content -->
 <div id="Ephemeris" class="tabcontent" markdown="1">
 <br/><br/>
-$$P = 5.405565(64) $$ day <br/>
-$$T_0 = 2458492.2668(73) $$ BJD TDB
+$$P = 5.405352(6) $$ day <br/>
+$$T_0 = 2458513.90689(68) $$ BJD TDB
 <br/><br/>
 <br/><br/>
 ![alt text](/images/WASP-161_o_c.png)
